@@ -5,12 +5,10 @@
 * * [默认色](home/color)
 * * [更新日志](home/update)
 * * [问题说明](home/issue)
-
 * [基础组件]()
 * * [Icon 图标](base/icon)
 * * [Button 按钮](base/button)
 * * [Text 文字](base/text)
-
 * [视图组件]()
 * * [Avatar 头像](view/avatar)
 * * [Tag 标签](view/tag)
@@ -20,12 +18,10 @@
 * * [SearchBar 搜索栏](view/searchBar)
 * * [ShopBar 购物栏](view/shopBar)
 * * [TitleBar 标题栏](view/titleBar)
-
 * [操作反馈]()
 * * [Modal 模态框](action/modal)
 * * [Progress 进度条](action/progress)
 * * [Loading 加载](action/loading)
-
 * [表单组件]()
 * * [Input 输入框](form/input)
 * * [Radio 单选按钮](form/radio)
@@ -33,15 +29,14 @@
 * * [Switch 开关](form/switch)
 * * [Select 选择器](form/select)
 * * [ImagePicker 图片选择器](form/imagePicker)
-
 * [布局组件]()
+* - [Layout 基本布局](layout/layout)
 * * [Flex 弹性布局](layout/flex)
 * * [Grid 栅格布局](layout/grid)
 * * [MenuList 菜单列表](layout/menuList)
 * * [Card 卡片](layout/card)
 * * [Drawer 抽屉](layout/drawer)
 * * [ScreenDrawer 全屏抽屉](layout/screenDrawer)
-
 * [导航组件]()
 * * [NavBar 导航栏](navigate/navBar)
 * * [TabBar 标签栏](navigate/tabBar)
