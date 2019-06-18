@@ -51,7 +51,6 @@ import { ClButton } from 'mp-colorui'
 | shadow    | *按钮阴影设置*               | Boolean | *`true`*,*`false`*                                           | *`true`*    |
 | disabled  | *是否禁用*                   | Boolean | *`true`*,*`false`*                                           | *`false`*   |
 | loading   | *显示加载图标*               | Boolean | *`true`*,*`false`*                                           | *`false`*   |
-| icon      | *按钮图标*                   | String  | *可选类型请查看 [icon-iconName](/base/icon?id=iconname)*     | -           |
 | text      | *按钮文字(同直接在标签里写)* | String  | -                                                            | -           |
 | openType  | *开放能力*                   | String  | *`contact`*,*`getUserInfo`*,<br />*`getPhoneNumber`*,<br />*`openSetting`*,*`feedback`*,<br />*`getRealnameAuthInfo`*,<br />*`share`*,*`launchApp`* | -           |
 
