@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```js
-import ClSteps from 'mp-colorui'
+import ClStep from 'mp-colorui'
 ```
 
 
@@ -15,19 +15,19 @@ import ClSteps from 'mp-colorui'
 ### 步骤条形状
 
 ```jsx
-<ClSteps type='arrow' />
+<ClStep type='arrow' />
 ```
 
 ### 激活色
 
 ```jsx
-<ClSteps activeColor='blue' />
+<ClStep activeColor='blue' />
 ```
 
 ### 默认激活第几步
 
 ```jsx
-<ClSteps step=0 />
+<ClStep step=0 />
 ```
 
 
@@ -36,7 +36,7 @@ import ClSteps from 'mp-colorui'
 
 ## 参数说明
 
-### Steps 参数说明
+### Step 参数说明
 
 | 参数              | 说明                     | 类型    | 可选值                                                       | 默认值     |
 | ----------------- | ------------------------ | ------- | ------------------------------------------------------------ | ---------- |
