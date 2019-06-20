@@ -44,12 +44,12 @@ import ClShopBar from 'mp-colorui'
 
 ### tabs
 
-| 参数  | 说明     | 类型           | 可选值                                             | 默认值    |
-| ----- | -------- | -------------- | -------------------------------------------------- | --------- |
-| badge | *角标*   | Boolean/Number | -                                                  | *`false`* |
-| icon  | *图标*   | String         | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -         |
-| img   | 图片地址 | String         | -                                                  | -         |
-| title | 标题     | String         | -                                                  | -         |
+| 参数  | 说明     | 类型           | 可选值                                             | 默认值   |
+| ----- | -------- | -------------- | -------------------------------------------------- | -------- |
+| badge | *角标*   | Boolean/Number | -                                                  | *`true`* |
+| icon  | *图标*   | String         | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -        |
+| img   | 图片地址 | String         | -                                                  | -        |
+| title | 标题     | String         | -                                                  | -        |
 
 
 
