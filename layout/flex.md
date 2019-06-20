@@ -38,3 +38,40 @@ import ClFlex from 'mp-colorui'
 | align   | *垂直方向排列方式* | String  | *`start`*,*`end`*,*`center`*                        | *`start`* |
 | wrap    | *换行*             | Boolean | *`true`*,*`false`*                                  | *`false`* |
 
+### 子元素固定尺寸参数说明
+
+用法：
+
+```jsx
+<ClFlex>
+	<View className="basis-xs"></View>
+</ClFlex>
+```
+
+
+
+| 参数     | 说明 |
+| -------- | ---- |
+| basis-xs | 20%  |
+| basis-sm | 40%  |
+| basis-df | 50%  |
+| basis-lg | 60%  |
+| basis-xl | 80%  |
+
+### 子元素比例参数说明
+
+用法：
+
+```jsx
+<ClFlex>
+	<View className="flex-sub"></View>
+  <View className="flex-twice"></View>
+</ClFlex>
+```
+
+| 参数        | 说明 |
+| ----------- | ---- |
+| flex-sub    | 1    |
+| flex-twice  | 2    |
+| flex-treble | 3    |
+
