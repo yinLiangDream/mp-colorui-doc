@@ -28,7 +28,7 @@ import ClNavBar from 'mp-colorui'
 const leftIcon = [{
   icon: 'round',
   color: 'black',
-  leftText: '圆形'
+  text: '圆形'
 }]
 const rightIcon = [{
   icon: 'round',
