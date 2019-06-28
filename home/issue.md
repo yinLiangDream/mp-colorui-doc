@@ -4,4 +4,10 @@
 
 
 
+## 合适适配 H5
+
+其实 H5 的适配进度已经到达 80%，还有一些样式未完成，待小程序版本组件稳定后会专心适配 H5。
+
+
+
 ## 有使用任何问题请给作者[留言](https://github.com/yinLiangDream/mp-colorui/issues)
