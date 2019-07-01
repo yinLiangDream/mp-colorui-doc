@@ -30,7 +30,7 @@
 </div>
 
 <div style="position: fixed; right:10px; top: 5%">
-<iframe style="border-radius: 30px; border: 1px solid antiquewhite" src="http://118.25.36.24:8080/#/pages/components/color/index" height="568" width="300"></iframe>
+<iframe style="border-radius: 30px; border: 1px solid antiquewhite" src="https://www.yysssl.com.cn/#/pages/components/color/index" height="568" width="300"></iframe>
 </div>
 
 <script>
