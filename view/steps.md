@@ -54,3 +54,7 @@ import ClStep from 'mp-colorui'
 | title | 每一步提示文字                                               | String | -      | -      |
 | icon  | *每一步的图标，可选类型请查看 参考文档 <br />[Icon-iconName](/base/icon?id=iconname)*(仅在`stepIconType === custom`时有效) | String | -      | -      |
 
+<div style="position: fixed; right:10px; top: 5%">
+<div style="width: 300px; color: lightcoral; font-size: 12px; word-break: break-all; white-space: normal; display: flex;justify-content: center">网页端目前还未完全适配，请以小程序端为准</div>
+<iframe style="border-radius: 30px; border: 1px solid antiquewhite" src="http://118.25.36.24:8080/#/pages/components/steps/index" height="568" width="300"></iframe>
+</div>

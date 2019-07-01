@@ -60,3 +60,8 @@ import ClTabBar from 'mp-colorui'
 | -------- | ---------- | -------- |
 | onClick  | *点击事件* | index    |
 
+
+<div style="position: fixed; right:10px; top: 5%">
+<div style="width: 300px; color: lightcoral; font-size: 12px; word-break: break-all; white-space: normal; display: flex;justify-content: center">网页端目前还未完全适配，请以小程序端为准</div>
+<iframe style="border-radius: 30px; border: 1px solid antiquewhite" src="http://118.25.36.24:8080/#/pages/components/tabBar/index" height="568" width="300"></iframe>
+</div>
