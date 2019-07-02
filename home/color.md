@@ -30,7 +30,7 @@
 </div>
 
 <div style="position: fixed; right:10px; top: 5%">
-<iframe style="border: 1px solid antiquewhite" src="https://www.yysssl.com.cn/#/pages/components/color/index" height="568" width="300"></iframe>
+<iframe style="border: 1px solid antiquewhite" src="https://www.yysssl.com.cn/#/pages/components/color/index" height="568" width="375"></iframe>
 </div>
 
 <script>
