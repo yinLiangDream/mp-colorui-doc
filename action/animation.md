@@ -13,13 +13,13 @@ import ClAnimation from 'mp-colorui'
 ### animation 类型
 
 ```jsx
-<ClLoading type='fade' />
+<ClAnimation type='fade' />
 ```
 
 ### animation 动画翻转
 
 ```jsx
-<ClLoading type='fade' reserve/>
+<ClAnimation type='fade' reserve/>
 ```
 
 
