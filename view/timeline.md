@@ -28,12 +28,14 @@ import ClTimeline from 'mp-colorui'
 
 ### times
 
-| 参数      | 说明         | 类型   | 可选值                                                       | 默认值 |
-| --------- | ------------ | ------ | ------------------------------------------------------------ | ------ |
-| content   | *包含的内容* | String | -                                                            | -      |
-| bgColor   | *背景色*     | String | 参考文档 [默认色](/home/color)              | -      |
-| iconColor | *图标颜色*   | String | 参考文档 [默认色-标准色](/home/color?id=标准色) | -      |
-| icon      | 节点图标     | String | 参考文档 [Icon-*iconName*](/base/icon?id=iconname)           | -      |
+| 参数      | 说明                           | 类型     | 可选值                                             | 默认值 |
+| --------- | ------------------------------ | -------- | -------------------------------------------------- | ------ |
+| content   | *包含的内容*                   | String[] | -                                                  | -      |
+| bgColor   | *背景色*                       | String   | 参考文档 [默认色](/home/color)                     | -      |
+| iconColor | *图标颜色*                     | String   | 参考文档 [默认色-标准色](/home/color?id=标准色)    | -      |
+| icon      | 节点图标                       | String   | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -      |
+| title     | *标题*                         | String   | -                                                  | -      |
+| node      | *节点(若存在则会忽略其他属性)* | String   | -                                                  | -      |
 
 
 <div style="position: fixed; right:10px; top: 5%">

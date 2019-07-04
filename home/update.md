@@ -26,9 +26,24 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.1.4', '2019-07-04', [
+            {
+              title: 'COMPONENT',
+              desc: [
+                '新增 Animation 动画组件'
+              ]
+            }, {
+              title: 'API_CHANGE',
+              desc: [
+                '修改 timeline 组件 times 属性下 content 格式(String --> String[])',
+                  '新增 timeline 组件 times 属性下 title 属性(String)',
+                  '新增 timeline 组件 times 属性下 node 属性(String)'
+              ]
+            }
+          ])
           generatorData('0.1.3', '2019-07-02', [
             {
-              title: 'BugFix',
+              title: 'BUG_FIX',
               desc: [
                 '修复 H5 button 无动效问题',
                 '修复 H5 timeline 线条过细问题',
@@ -39,7 +54,7 @@ new Vue({
           ]),
           generatorData('0.1.1', '2019-07-01', [
             {
-              title: 'BugFix',
+              title: 'BUG_FIX',
               desc: [
                 '修复 H5 适配的部分问题',
                 '修复 H5 Radio 样式问题'
@@ -49,9 +64,9 @@ new Vue({
           generatorData('0.1.0', '2019-06-25',
             [
               {
-                title: 'Fature',
+                title: 'FATURE',
                 desc: [
-                  'MP-ColorUI 正式版上线'
+                  'MP-ColorUI 测试版上线'
                 ]
               }
             ]
