@@ -42,7 +42,7 @@ import ClRadio from 'mp-colorui'
 
 | 参数         | 说明                    | 类型         | 可选值                                          | 默认值       |
 | ------------ | ----------------------- | ------------ | ----------------------------------------------- | ------------ |
-| type         | *单选框类型*            | String       | *`normal`*,*`form`*                             | *`normal`*   |
+| type         | *单选框类型*            | String       | *`normal`*,*`form`*,*`list`*                    | *`normal`*   |
 | direction    | *单选框方向*            | String       | *`vertical`*,*`horizontal`*                     | *`vertical`* |
 | shape        | *单选框形状*            | String       | *`normal`*,*`radio`*                            | *`normal`*   |
 | title        | *type 为 form 时的标题* | String       | -                                               | -            |

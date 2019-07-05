@@ -29,17 +29,17 @@ new Vue({
           generatorData('0.1.6', '2019-07-05', [
             {
               title: 'API'
-              desc: '新增 menuList list 下 disabled 属性'
+              desc: '新增 MenuList list 下 disabled 属性'
             },
             {
               title: 'BUG',
-              desc: 'menuList 点击失效问题'
+              desc: 'MenuList 点击失效问题'
             }
           ]),
           generatorData('0.1.5', '2019-07-05', [
             {
               title: 'API',
-              desc: ['新增 checkbox 组件 type 属性下的 list 属性']
+              desc: ['新增 Radio 组件 type 属性下的 list 属性']
             }
           ]),
           generatorData('0.1.4', '2019-07-04', [
@@ -51,9 +51,9 @@ new Vue({
             }, {
               title: 'API',
               desc: [
-                '修改 timeline 组件 times 属性下 content 格式(String --> String[])',
-                  '新增 timeline 组件 times 属性下 title 属性(String)',
-                  '新增 timeline 组件 times 属性下 node 属性(String)'
+                '修改 Timeline 组件 times 属性下 content 格式(String --> String[])',
+                  '新增 Timeline 组件 times 属性下 title 属性(String)',
+                  '新增 Timeline 组件 times 属性下 node 属性(String)'
               ]
             }
           ]),
@@ -61,10 +61,10 @@ new Vue({
             {
               title: 'BUG_FIX',
               desc: [
-                '修复 H5 button 无动效问题',
-                '修复 H5 timeline 线条过细问题',
-                '修复 H5 swiper 未铺满问题',
-                '修复 H5 menuList 图片过大问题'
+                '修复 H5 Button 无动效问题',
+                '修复 H5 Timeline 线条过细问题',
+                '修复 H5 Swiper 未铺满问题',
+                '修复 H5 MenuList 图片过大问题'
               ]
             }
           ]),
