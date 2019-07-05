@@ -26,6 +26,16 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.1.6', '2019-07-05', [
+            {
+              title: 'API'
+              desc: '新增 menuList list 下 disabled 属性'
+            },
+            {
+              title: 'BUG',
+              desc: 'menuList 点击失效问题'
+            }
+          ]),
           generatorData('0.1.5', '2019-07-05', [
             {
               title: 'API',

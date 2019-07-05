@@ -43,6 +43,7 @@ import ClMenuList from 'mp-colorui'
 | arrow      | *是否显示箭头* | Boolean | *`true`*,*`false`*                                   | *`false`* |
 | title      | *标题*         | String  | -                                                    | -         |
 | imgUrl     | *图片地址*     | String  | -                                                    | -         |
+| disabled   | *禁止点击*     | Boolean | -                                                    | *`false`* |
 
 
 
