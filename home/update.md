@@ -26,6 +26,12 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.1.5', '2019-07-05', [
+            {
+              title: 'API',
+              desc: ['新增 checkbox 组件 type 属性下的 list 属性']
+            }
+          ]),
           generatorData('0.1.4', '2019-07-04', [
             {
               title: 'COMPONENT',
@@ -33,14 +39,14 @@ new Vue({
                 '新增 Animation 动画组件'
               ]
             }, {
-              title: 'API_CHANGE',
+              title: 'API',
               desc: [
                 '修改 timeline 组件 times 属性下 content 格式(String --> String[])',
                   '新增 timeline 组件 times 属性下 title 属性(String)',
                   '新增 timeline 组件 times 属性下 node 属性(String)'
               ]
             }
-          ])
+          ]),
           generatorData('0.1.3', '2019-07-02', [
             {
               title: 'BUG_FIX',
