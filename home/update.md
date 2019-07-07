@@ -29,20 +29,20 @@ new Vue({
           generatorData('0.1.7', '2019-07-07', [
             {
               title: 'API',
-              desc: '新增 titleBar 组件 renderRight 属性'
+              desc: ['新增 titleBar 组件 renderRight 属性']
             }, {
               title: 'BUG',
-              desc: '解决 浅色 light-pink 失效问题'
+              desc: ['解决 浅色 light-pink 失效问题']
             }
           ]),
           generatorData('0.1.6', '2019-07-05', [
             {
               title: 'API'
-              desc: '新增 MenuList list 下 disabled 属性'
+              desc: ['新增 MenuList list 下 disabled 属性']
             },
             {
               title: 'BUG',
-              desc: 'MenuList 点击失效问题'
+              desc: ['MenuList 点击失效问题']
             }
           ]),
           generatorData('0.1.5', '2019-07-05', [
