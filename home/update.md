@@ -26,6 +26,15 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.1.7', '2019-07-07', [
+            {
+              title: 'API',
+              desc: '新增 titleBar 组件 renderRight 属性'
+            }, {
+              title: 'BUG',
+              desc: '解决 浅色 light-pink 失效问题'
+            }
+          ])
           generatorData('0.1.6', '2019-07-05', [
             {
               title: 'API'
