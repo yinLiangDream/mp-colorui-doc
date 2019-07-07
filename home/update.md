@@ -34,7 +34,7 @@ new Vue({
               title: 'BUG',
               desc: '解决 浅色 light-pink 失效问题'
             }
-          ])
+          ]),
           generatorData('0.1.6', '2019-07-05', [
             {
               title: 'API'
