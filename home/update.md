@@ -37,7 +37,7 @@ new Vue({
           ]),
           generatorData('0.1.6', '2019-07-05', [
             {
-              title: 'API'
+              title: 'API',
               desc: ['新增 MenuList list 下 disabled 属性']
             },
             {
