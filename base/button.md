@@ -43,16 +43,16 @@ import { ClButton } from 'mp-colorui'
 
 | 参数      | 说明                         | 类型    | 可选值                                                       | 默认值      |
 | --------- | ---------------------------- | ------- | ------------------------------------------------------------ | ----------- |
-| shape     | *按钮形状设置*               | String  | *`round`*,*`radius`*                                         | *`radius`*  |
-| size      | *按钮大小设置*               | String  | *`small`*,`normal`,*`large`*                                 | *`normal`*  |
-| bgColor   | *按钮背景色设置*             | String  | *参考文档 [默认色](/home/color)*                             | *`blue`*    |
-| plain     | *镂空设置*                   | Boolean | *`true`*,*`false`*                                           | *`false`*   |
-| plainSize | *镂空边框粗细设置*           | String  | *`default`*,*`bold`*                                         | *`default`* |
-| shadow    | *按钮阴影设置*               | Boolean | *`true`*,*`false`*                                           | *`true`*    |
-| disabled  | *是否禁用*                   | Boolean | *`true`*,*`false`*                                           | *`false`*   |
-| loading   | *显示加载图标*               | Boolean | *`true`*,*`false`*                                           | *`false`*   |
-| text      | *按钮文字(同直接在标签里写)* | String  | -                                                            | -           |
-| openType  | *开放能力*                   | String  | *`contact`*,*`getUserInfo`*,<br />*`getPhoneNumber`*,<br />*`openSetting`*,*`feedback`*,<br />*`getRealnameAuthInfo`*,<br />*`share`*,*`launchApp`* | -           |
+| shape     | *按钮形状设置*               | string  | *`round`*,*`radius`*                                         | *`radius`*  |
+| size      | *按钮大小设置*               | string  | *`small`*,`normal`,*`large`*                                 | *`normal`*  |
+| bgColor   | *按钮背景色设置*             | string  | *参考文档 [默认色](/home/color)*                             | *`blue`*    |
+| plain     | *镂空设置*                   | boolean | *`true`*,*`false`*                                           | *`false`*   |
+| plainSize | *镂空边框粗细设置*           | string  | *`default`*,*`bold`*                                         | *`default`* |
+| shadow    | *按钮阴影设置*               | boolean | *`true`*,*`false`*                                           | *`true`*    |
+| disabled  | *是否禁用*                   | boolean | *`true`*,*`false`*                                           | *`false`*   |
+| loading   | *显示加载图标*               | boolean | *`true`*,*`false`*                                           | *`false`*   |
+| text      | *按钮文字(同直接在标签里写)* | string  | -                                                            | -           |
+| openType  | *开放能力*                   | string  | *`contact`*,*`getUserInfo`*,<br />*`getPhoneNumber`*,<br />*`openSetting`*,*`feedback`*,<br />*`getRealnameAuthInfo`*,<br />*`share`*,*`launchApp`* | -           |
 
 ### Button 事件
 

@@ -38,21 +38,21 @@ import ClTag from 'mp-colorui'
 
 | 参数     | 说明                       | 类型    | 可选值                          | 默认值     |
 | -------- | -------------------------- | ------- | ------------------------------- | ---------- |
-| shape    | *tag 形状*                 | String  | *`normal`*,*`round`*,*`radius`* | *`normal`* |
-| size     | *tag 大小设置*             | String  | *`normal`*,*`small`*            | *`normal`* |
-| canTouch | 是否可以点击               | Boolean | *`true`*,*`false`*              | *`false`*  |
-| badge    | *该标签是否显示为角标位置* | Boolean | *`true`*,*`false`*              | *`false`*  |
+| shape    | *tag 形状*                 | string  | *`normal`*,*`round`*,*`radius`* | *`normal`* |
+| size     | *tag 大小设置*             | string  | *`normal`*,*`small`*            | *`normal`* |
+| canTouch | 是否可以点击               | boolean | *`true`*,*`false`*              | *`false`*  |
+| badge    | *该标签是否显示为角标位置* | boolean | *`true`*,*`false`*              | *`false`*  |
 | tags     | *tag 数组*                 | tags[]  | [详情](/view/tag?id=tags)       | []         |
 
 ### tags
 
 | 参数     | 说明           | 类型    | 可选值                                                       | 默认值    |
 | -------- | -------------- | ------- | ------------------------------------------------------------ | --------- |
-| color    | *标签颜色*     | String  | 参考文档 [默认色-标准色](/home/color?id=标准色) | -         |
-| plain    | *是否镂空*     | Boolean | *`true`*,*`false`*                                           | *`false`* |
-| icon     | *图标*         | String  | 参考文档 [Icon-*iconName*](/base/icon?id=iconname)           | -         |
-| text     | 文字           | String  | -                                                            | -         |
-| disabled | *是否禁止点击* | Boolean | *`true`*,*`false`*                                           | *`false`* |
+| color    | *标签颜色*     | string  | 参考文档 [默认色-标准色](/home/color?id=标准色) | -         |
+| plain    | *是否镂空*     | boolean | *`true`*,*`false`*                                           | *`false`* |
+| icon     | *图标*         | string  | 参考文档 [Icon-*iconName*](/base/icon?id=iconname)           | -         |
+| text     | 文字           | string  | -                                                            | -         |
+| disabled | *是否禁止点击* | boolean | *`true`*,*`false`*                                           | *`false`* |
 
 
 

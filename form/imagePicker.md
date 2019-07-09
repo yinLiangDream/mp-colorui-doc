@@ -38,7 +38,7 @@ import ClImagePicker from 'mp-colorui'
 | 参数         | 说明           | 类型           | 可选值                                    | 默认值 |
 | ------------ | -------------- | -------------- | ----------------------------------------- | ------ |
 | chooseImgObj | *选择图片对象* | chooseImgObj[] | [详情](/form/imagePicker?id=chooseimgobj) | []     |
-| imgList      | *图片列表*     | String[]       | -                                         | -      |
+| imgList      | *图片列表*     | string[]       | -                                         | -      |
 
 
 
@@ -46,9 +46,9 @@ import ClImagePicker from 'mp-colorui'
 
 | 参数       | 说明               | 类型     | 可选值                      | 默认值                     |
 | ---------- | ------------------ | -------- | --------------------------- | -------------------------- |
-| count      | *选择图片个数*     | Number   | -                           | 9                          |
-| sizeType   | *所选的图片的尺寸* | String[] | *`original`*,*`compressed`* | ['original', 'compressed'] |
-| sourceType | *选择图片的来源*   | String[] | *`album`*,*`camera`*        | ['album']                  |
+| count      | *选择图片个数*     | number   | -                           | 9                          |
+| sizeType   | *所选的图片的尺寸* | string[] | *`original`*,*`compressed`* | ['original', 'compressed'] |
+| sourceType | *选择图片的来源*   | string[] | *`album`*,*`camera`*        | ['album']                  |
 | success    | *选择成功回调函数* |          |                             |                            |
 
 ### chooseImgObj 事件

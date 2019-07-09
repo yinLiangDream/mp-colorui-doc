@@ -36,9 +36,9 @@ import ClSelect from 'mp-colorui'
 
 | 参数          | 说明                           | 类型    | 可选值                                                       | 默认值       |
 | ------------- | ------------------------------ | ------- | ------------------------------------------------------------ | ------------ |
-| title         | *标题*                         | String  | -                                                            | -            |
-| disabled      | *是否禁止选择*                 | Boolean | *`true`*,*`false`*                                           | *`false`*    |
-| mode          | *选择类型*，                   | String  | *`selector`*,*`multiSelector`*,<br />*`time`*,*`date`*,*`region`* | *`selector`* |
+| title         | *标题*                         | string  | -                                                            | -            |
+| disabled      | *是否禁止选择*                 | boolean | *`true`*,*`false`*                                           | *`false`*    |
+| mode          | *选择类型*，                   | string  | *`selector`*,*`multiSelector`*,<br />*`time`*,*`date`*,*`region`* | *`selector`* |
 | selector      | *mode 为 selector 时设置*      | Object  | [详情](/form/select?id=selector)                             | {}           |
 | multiSelector | *mode 为 multiSelector 时设置* | Object  | [详情](/form/select?id=multiSelector)                        | {}           |
 | time          | *mode 为 time 时设置*          | Object  | [详情](/form/select?id=time)                                 | {}           |
@@ -51,9 +51,9 @@ import ClSelect from 'mp-colorui'
 
 | 参数     | 说明                                                         | 类型            | 可选值 | 默认值 |
 | -------- | ------------------------------------------------------------ | --------------- | ------ | ------ |
-| range    | *每一项*                                                     | Object/String[] | -      | []     |
-| rangeKey | *若 range 每一项为 Object 类型，则此属性为对应要显示内容的 key* | String          | -      | -      |
-| value    | *默认选中的位置*                                             | Number          | -      | 0      |
+| range    | *每一项*                                                     | Object/string[] | -      | []     |
+| rangeKey | *若 range 每一项为 Object 类型，则此属性为对应要显示内容的 key* | string          | -      | -      |
+| value    | *默认选中的位置*                                             | number          | -      | 0      |
 
 
 
@@ -61,9 +61,9 @@ import ClSelect from 'mp-colorui'
 
 | 参数     | 说明                                                         | 类型            | 可选值 | 默认值 |
 | -------- | ------------------------------------------------------------ | --------------- | ------ | ------ |
-| range    | *每一项*                                                     | Object/String[] | -      | []     |
-| rangeKey | *若 range 每一项为 Object 类型，则此属性为对应要显示内容的 key* | String          | -      | -      |
-| value    | *默认选中的位置*                                             | Number[]        | -      | [0, 0] |
+| range    | *每一项*                                                     | Object/string[] | -      | []     |
+| rangeKey | *若 range 每一项为 Object 类型，则此属性为对应要显示内容的 key* | string          | -      | -      |
+| value    | *默认选中的位置*                                             | number[]        | -      | [0, 0] |
 
 
 
@@ -71,9 +71,9 @@ import ClSelect from 'mp-colorui'
 
 | 参数  | 说明       | 类型   | 可选值 | 默认值 |
 | ----- | ---------- | ------ | ------ | ------ |
-| value | *选中的值* | String | -      | 00:00  |
-| start | *开始时间* | String | -      | 00:00  |
-| end   | *结束时间* | String | -      | 23:59  |
+| value | *选中的值* | string | -      | 00:00  |
+| start | *开始时间* | string | -      | 00:00  |
+| end   | *结束时间* | string | -      | 23:59  |
 
 
 
@@ -81,10 +81,10 @@ import ClSelect from 'mp-colorui'
 
 | 参数   | 说明           | 类型   | 可选值                     | 默认值  |
 | ------ | -------------- | ------ | -------------------------- | ------- |
-| value  | *选中的值*     | String | -                          | -       |
-| start  | *开始日期*     | String | -                          | -       |
-| end    | *结束日期*     | String | -                          | -       |
-| fields | *日期选择精度* | String | *`year`*,*`month`*,*`day`* | *`day`* |
+| value  | *选中的值*     | string | -                          | -       |
+| start  | *开始日期*     | string | -                          | -       |
+| end    | *结束日期*     | string | -                          | -       |
+| fields | *日期选择精度* | string | *`year`*,*`month`*,*`day`* | *`day`* |
 
 
 
@@ -92,8 +92,8 @@ import ClSelect from 'mp-colorui'
 
 | 参数       | 说明                                 | 类型     | 可选值 | 默认值                       |
 | ---------- | ------------------------------------ | -------- | ------ | ---------------------------- |
-| value      | *选中的值*                           | String[] | -      | ['北京市','北京市','东城区'] |
-| customItem | *可为每一列的顶部添加一个自定义的项* | String   | -      | -                            |
+| value      | *选中的值*                           | string[] | -      | ['北京市','北京市','东城区'] |
+| customItem | *可为每一列的顶部添加一个自定义的项* | string   | -      | -                            |
 
 
 

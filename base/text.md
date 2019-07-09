@@ -52,13 +52,13 @@ import { ClText } from 'mp-colorui'
 
 | 参数      | 说明             | 类型    | 可选值                                                       | 默认值     |
 | --------- | ---------------- | ------- | ------------------------------------------------------------ | ---------- |
-| size      | *文字大小*       | String  | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*,*`xxlarge`*,<br />*`slarge`*,*`xslarge`* | *`normal`* |
-| textColor | *文字颜色*       | String  | 参考文档 [默认色-标准色](/home/color?id=标准色)              | *`black`*  |
-| bgColor   | *文字背景色*     | String  | 参考文档 [默认色](/home/color)              | -          |
-| cut       | *是否显示省略号* | Boolean | *`true`*,*`false`*                                           | *`false`*  |
-| align     | *文字对齐方式*   | String  | *`left`*,*`center`*,*`right`*                                | *`left`*   |
-| special   | *特殊需求*       | String  | *`firstUpper`*,*`upper`*,*`lower`*                           | -          |
-| text      | 文字内容         | String  | -                                                            | -          |
+| size      | *文字大小*       | string  | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*,*`xxlarge`*,<br />*`slarge`*,*`xslarge`* | *`normal`* |
+| textColor | *文字颜色*       | string  | 参考文档 [默认色-标准色](/home/color?id=标准色)              | *`black`*  |
+| bgColor   | *文字背景色*     | string  | 参考文档 [默认色](/home/color)              | -          |
+| cut       | *是否显示省略号* | boolean | *`true`*,*`false`*                                           | *`false`*  |
+| align     | *文字对齐方式*   | string  | *`left`*,*`center`*,*`right`*                                | *`left`*   |
+| special   | *特殊需求*       | string  | *`firstUpper`*,*`upper`*,*`lower`*                           | -          |
+| text      | 文字内容         | string  | -                                                            | -          |
 
 <div style="position: fixed; right:10px; top: 5%">
 <div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页端目前还未完全适配，请以小程序端为准。</div>

@@ -44,14 +44,14 @@ import ClSearchBar from 'mp-colorui'
 
 | 参数             | 说明                            | 类型   | 可选值                                                       | 默认值     |
 | ---------------- | ------------------------------- | ------ | ------------------------------------------------------------ | ---------- |
-| shape            | *搜索栏的形状*                  | String | *`radius`*,*`round`*                                         | *`radius`* |
-| placeholder      | *占位内容*                      | String | -                                                            | -          |
-| fix              | *是否固定最上端*                | String | *`true`*,*`false`*                                           | *`false`*  |
-| searchType       | *搜索框右边显示的内容的类型*    | String | *`button`*,*`text`*,*`none`*,*`list`*                        | *`button`* |
+| shape            | *搜索栏的形状*                  | string | *`radius`*,*`round`*                                         | *`radius`* |
+| placeholder      | *占位内容*                      | string | -                                                            | -          |
+| fix              | *是否固定最上端*                | string | *`true`*,*`false`*                                           | *`false`*  |
+| searchType       | *搜索框右边显示的内容的类型*    | string | *`button`*,*`text`*,*`none`*,*`list`*                        | *`button`* |
 | leftIcons        | *左边的图标组*                  | icon[] | 参考文档 [Icon-*iconName*](/base/icon?id=iconname)           | []         |
-| bgColor          | *背景色*                        | String | 参考文档 [默认色](/home/color)              | -          |
-| rightButtonColor | *右侧按钮颜色*                  | String | 参考文档 [默认色](/home/color)              | *`white`*  |
-| rightTextColor   | *type 为 text 时，右侧文字颜色* | String | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`black`*  |
+| bgColor          | *背景色*                        | string | 参考文档 [默认色](/home/color)              | -          |
+| rightButtonColor | *右侧按钮颜色*                  | string | 参考文档 [默认色](/home/color)              | *`white`*  |
+| rightTextColor   | *type 为 text 时，右侧文字颜色* | string | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`black`*  |
 
 ### SearchBar 事件
 

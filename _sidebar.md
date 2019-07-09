@@ -42,3 +42,4 @@
 * * [NavBar 导航栏](navigate/navBar)
 * * [TabBar 标签栏](navigate/tabBar)
 * * [Tabs 标签页](navigate/tabs)
+* * [VertialTab 垂直导航](navigate/verticalTab)

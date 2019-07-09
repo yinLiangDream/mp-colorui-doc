@@ -48,12 +48,12 @@ import ClProgress from 'mp-colorui'
 
 | 参数      | 说明                             | 类型    | 可选值                          | 默认值     |
 | --------- | -------------------------------- | ------- | ------------------------------- | ---------- |
-| shape     | *进度条形状*                     | String  | *`normal`*,*`radius`*,*`round`* | *`normal`* |
-| bgColor   | *进度条背景色*                   | String  | 参考文档 [默认色](/home/color)  | *`blue`*   |
-| size      | *进度条大小设置*                 | String  | *`normal`*,*`small`*,*`xsmall`* | *`normal`* |
-| stripe    | *进度条条纹（渐变色无条纹效果）* | String  | *`true`*,*`false`*              | *`false`*  |
-| animation | *进度条动画*                     | Boolean | *`true`*,*`false`*              | *`false`*  |
-| percent   | *进度条百分比*                   | Number  | 0-100                           | 0          |
+| shape     | *进度条形状*                     | string  | *`normal`*,*`radius`*,*`round`* | *`normal`* |
+| bgColor   | *进度条背景色*                   | string  | 参考文档 [默认色](/home/color)  | *`blue`*   |
+| size      | *进度条大小设置*                 | string  | *`normal`*,*`small`*,*`xsmall`* | *`normal`* |
+| stripe    | *进度条条纹（渐变色无条纹效果）* | string  | *`true`*,*`false`*              | *`false`*  |
+| animation | *进度条动画*                     | boolean | *`true`*,*`false`*              | *`false`*  |
+| percent   | *进度条百分比*                   | number  | 0-100                           | 0          |
 
 
 <div style="position: fixed; right:10px; top: 5%">

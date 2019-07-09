@@ -30,8 +30,8 @@ import ClMenuList from 'mp-colorui'
 
 | 参数        | 说明             | 类型    | 可选值                           | 默认值    |
 | ----------- | ---------------- | ------- | -------------------------------- | --------- |
-| shortBorder | *是否为短分割线* | Boolean | *`true`*,*`false`*               | *`false`* |
-| card        | *是否是卡片形式* | Boolean | *`true`*,*`false`*               | *`false`* |
+| shortBorder | *是否为短分割线* | boolean | *`true`*,*`false`*               | *`false`* |
+| card        | *是否是卡片形式* | boolean | *`true`*,*`false`*               | *`false`* |
 | list        | *列表每一项*     | list[]  | [详情](/layout/menuList?id=list) | []        |
 
 ### list
@@ -39,11 +39,11 @@ import ClMenuList from 'mp-colorui'
 | 参数       | 说明           | 类型    | 可选值                                               | 默认值    |
 | ---------- | -------------- | ------- | ---------------------------------------------------- | --------- |
 | icon       | *列表图标*     | Object  | 参考文档 [Icon-*Icon* 参数](/base/icon?id=icon-参数) | {}        |
-| titleColor | *标题颜色*     | String  | 参考文档 [默认色-标准色](/home/color?id=标准色)      | *`black`* |
-| arrow      | *是否显示箭头* | Boolean | *`true`*,*`false`*                                   | *`false`* |
-| title      | *标题*         | String  | -                                                    | -         |
-| imgUrl     | *图片地址*     | String  | -                                                    | -         |
-| disabled   | *禁止点击*     | Boolean | -                                                    | *`false`* |
+| titleColor | *标题颜色*     | string  | 参考文档 [默认色-标准色](/home/color?id=标准色)      | *`black`* |
+| arrow      | *是否显示箭头* | boolean | *`true`*,*`false`*                                   | *`false`* |
+| title      | *标题*         | string  | -                                                    | -         |
+| imgUrl     | *图片地址*     | string  | -                                                    | -         |
+| disabled   | *禁止点击*     | boolean | -                                                    | *`false`* |
 
 
 

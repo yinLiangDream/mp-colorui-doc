@@ -46,8 +46,8 @@ const rightIcon = [{
 
 | 参数      | 说明         | 类型        | 可选值                                | 默认值    |
 | --------- | ------------ | ----------- | ------------------------------------- | --------- |
-| bgColor   | *背景色*     | String      | 参考文档 [默认色](/home/color)        | *`white`* |
-| title     | *中间标题*   | String      | -                                     | -         |
+| bgColor   | *背景色*     | string      | 参考文档 [默认色](/home/color)        | *`white`* |
+| title     | *中间标题*   | string      | -                                     | -         |
 | leftIcon  | *左侧图标组* | leftIcon[]  | [详情](/navigate/navBar?id=lefticon)  | []        |
 | rightIcon | *右侧图标组* | rightIcon[] | [详情](/navigate/navBar?id=rightIcon) | []        |
 
@@ -55,9 +55,9 @@ const rightIcon = [{
 
 | 参数  | 说明       | 类型   | 可选值                                             | 默认值 |
 | ----- | ---------- | ------ | -------------------------------------------------- | ------ |
-| icon  | *图标*     | String | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -      |
-| color | *图标颜色* | String | 参考文档 [默认色-标准色](/home/color?id=标准色)    | -      |
-| text  | *左侧文字* | String | -                                                  | -      |
+| icon  | *图标*     | string | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -      |
+| color | *图标颜色* | string | 参考文档 [默认色-标准色](/home/color?id=标准色)    | -      |
+| text  | *左侧文字* | string | -                                                  | -      |
 
 
 
@@ -65,8 +65,8 @@ const rightIcon = [{
 
 | 参数  | 说明       | 类型   | 可选值                                             | 默认值 |
 | ----- | ---------- | ------ | -------------------------------------------------- | ------ |
-| icon  | *图标*     | String | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -      |
-| color | *图标颜色* | String | 参考文档 [默认色-标准色](/home/color?id=标准色)    | -      |
+| icon  | *图标*     | string | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -      |
+| color | *图标颜色* | string | 参考文档 [默认色-标准色](/home/color?id=标准色)    | -      |
 
 
 

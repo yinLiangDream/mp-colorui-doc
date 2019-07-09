@@ -38,20 +38,20 @@ import ClCheckbox from 'mp-colorui'
 
 | 参数          | 说明                          | 类型            | 可选值                                          | 默认值       |
 | ------------- | ----------------------------- | --------------- | ----------------------------------------------- | ------------ |
-| title         | *form 类型下，复选框标题设置* | String          | -                                               | -            |
-| type          | *复选框类型选择*              | String          | *`normal`*,*`form`*                             | *`normal`*   |
-| shape         | *复选框形状设置*              | String          | *`normal`*,*`round`*                            | *`normal`*   |
-| color         | *复选框选中色设置*            | String          | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`green`*    |
-| direction     | *复选框排列类型*              | String          | *`vertical`*,*`horizontal`*                     | *`vertical`* |
+| title         | *form 类型下，复选框标题设置* | string          | -                                               | -            |
+| type          | *复选框类型选择*              | string          | *`normal`*,*`form`*                             | *`normal`*   |
+| shape         | *复选框形状设置*              | string          | *`normal`*,*`round`*                            | *`normal`*   |
+| color         | *复选框选中色设置*            | string          | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`green`*    |
+| direction     | *复选框排列类型*              | string          | *`vertical`*,*`horizontal`*                     | *`vertical`* |
 | checkboxGroup | *复选框每一项设置*            | checkboxGroup[] | [详情](/form/checkbox?id=checkboxgroup)         | []           |
 
 ### checkboxGroup
 
 | 参数    | 说明                                        | 类型    | 可选值             | 默认值    |
 | ------- | ------------------------------------------- | ------- | ------------------ | --------- |
-| checked | *是否选中*                                  | Boolean | *`true`*,*`false`* | *`false`* |
-| key     | *复选框的 key 设置，显示于复选框外*         | String  | -                  | -         |
-| value   | *复选框的 value 设置，该参数为选中时的参数* | String  | -                  | -         |
+| checked | *是否选中*                                  | boolean | *`true`*,*`false`* | *`false`* |
+| key     | *复选框的 key 设置，显示于复选框外*         | string  | -                  | -         |
+| value   | *复选框的 value 设置，该参数为选中时的参数* | string  | -                  | -         |
 
 
 

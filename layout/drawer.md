@@ -36,9 +36,9 @@ import ClDrawer from 'mp-colorui'
 
 | 参数            | 说明           | 类型    | 可选值                        | 默认值     |
 | --------------- | -------------- | ------- | ----------------------------- | ---------- |
-| show            | *是否显示*     | Boolean | *`true`*,*`false`*            | *`false`*  |
-| direction       | *抽屉方向*     | String  | *`bottom`*,*`left`*,*`right`* | *`bottom`* |
-| closeWithShadow | *点击阴影关闭* | Boolean | *`true`*,*`false`*            | *`true`*   |
+| show            | *是否显示*     | boolean | *`true`*,*`false`*            | *`false`*  |
+| direction       | *抽屉方向*     | string  | *`bottom`*,*`left`*,*`right`* | *`bottom`* |
+| closeWithShadow | *点击阴影关闭* | boolean | *`true`*,*`false`*            | *`true`*   |
 
 
 

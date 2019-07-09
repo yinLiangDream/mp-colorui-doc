@@ -36,9 +36,9 @@ import ClShopBar from 'mp-colorui'
 
 | 参数    | 说明             | 类型      | 可选值                                          | 默认值    |
 | ------- | ---------------- | --------- | ----------------------------------------------- | --------- |
-| bgColor | *背景色*         | String    | 参考文档 [默认色](/home/color) | *`white`* |
-| fix     | *是否固定在底部* | Boolean   | *`true`*,*`false`*                              | *`false`* |
-| border  | *是否显示分割线* | Boolean   | *`true`*,*`false`*                              | *`false`* |
+| bgColor | *背景色*         | string    | 参考文档 [默认色](/home/color) | *`white`* |
+| fix     | *是否固定在底部* | boolean   | *`true`*,*`false`*                              | *`false`* |
+| border  | *是否显示分割线* | boolean   | *`true`*,*`false`*                              | *`false`* |
 | tabs    | *每一项 tab*     | tabs[]    | [详情](/view/shopBar?id=tabs)                   | []        |
 | buttons | *右侧按钮组*     | buttons[] | [详情](/view/shopBar?id=buttons)                | []        |
 
@@ -46,10 +46,10 @@ import ClShopBar from 'mp-colorui'
 
 | 参数  | 说明     | 类型           | 可选值                                             | 默认值   |
 | ----- | -------- | -------------- | -------------------------------------------------- | -------- |
-| badge | *角标*   | Boolean/Number | -                                                  | *`true`* |
-| icon  | *图标*   | String         | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -        |
-| img   | 图片地址 | String         | -                                                  | -        |
-| title | 标题     | String         | -                                                  | -        |
+| badge | *角标*   | boolean/Number | -                                                  | *`true`* |
+| icon  | *图标*   | string         | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -        |
+| img   | 图片地址 | string         | -                                                  | -        |
+| title | 标题     | string         | -                                                  | -        |
 
 
 
@@ -57,8 +57,8 @@ import ClShopBar from 'mp-colorui'
 
 | 参数    | 说明       | 类型   | 可选值                                          | 默认值 |
 | ------- | ---------- | ------ | ----------------------------------------------- | ------ |
-| text    | *按钮文字* | String | -                                               | -      |
-| bgColor | *按钮颜色* | String | 参考文档 [默认色](/home/color) | -      |
+| text    | *按钮文字* | string | -                                               | -      |
+| bgColor | *按钮颜色* | string | 参考文档 [默认色](/home/color) | -      |
 
 
 

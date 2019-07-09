@@ -36,21 +36,21 @@ import ClTabBar from 'mp-colorui'
 
 | 参数        | 说明              | 类型    | 可选值                                          | 默认值    |
 | ----------- | ----------------- | ------- | ----------------------------------------------- | --------- |
-| bgColor     | *背景色*          | String  | 参考文档 [默认色](/home/color)                  | *`white`* |
-| activeColor | *激活的颜色*      | String  | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`blue`*  |
-| active      | *激活的下标*      | Number  | -                                               | 0         |
-| fix         | *是否固定在底部*  | Boolean | *`true`*,*`false`*                              | *`false`* |
+| bgColor     | *背景色*          | string  | 参考文档 [默认色](/home/color)                  | *`white`* |
+| activeColor | *激活的颜色*      | string  | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`blue`*  |
+| active      | *激活的下标*      | number  | -                                               | 0         |
+| fix         | *是否固定在底部*  | boolean | *`true`*,*`false`*                              | *`false`* |
 | tabs        | *每一项 tab 内容* | tabs[]  | [详情](/navigate/tabBar?id=tabs)                | []        |
 
 ### tabs
 
 | 参数   | 说明             | 类型           | 可选值                                             | 默认值    |
 | ------ | ---------------- | -------------- | -------------------------------------------------- | --------- |
-| badge  | *右上角提示*     | Boolean/Number | -                                                  | *`false`* |
-| icon   | *图标*           | String         | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -         |
-| img    | *图片地址*       | String         | -                                                  | -         |
-| title  | *标题*           | String         | -                                                  | -         |
-| action | *是否为突出操作* | Boolean        | *`true`*,*`false`*                                 | *`false`* |
+| badge  | *右上角提示*     | boolean/Number | -                                                  | *`false`* |
+| icon   | *图标*           | string         | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -         |
+| img    | *图片地址*       | string         | -                                                  | -         |
+| title  | *标题*           | string         | -                                                  | -         |
+| action | *是否为突出操作* | boolean        | *`true`*,*`false`*                                 | *`false`* |
 
 
 

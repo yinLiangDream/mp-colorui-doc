@@ -26,6 +26,12 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.2.0', '2019-07-09', [
+            {
+              title: 'COMPONENT',
+              desc: ['新增垂直导航 ClVerticalTab, ClVerticalTabCell 组件']
+            }
+          ]),
           generatorData('0.1.7', '2019-07-07', [
             {
               title: 'API',
@@ -60,9 +66,9 @@ new Vue({
             }, {
               title: 'API',
               desc: [
-                '修改 Timeline 组件 times 属性下 content 格式(String --> String[])',
-                  '新增 Timeline 组件 times 属性下 title 属性(String)',
-                  '新增 Timeline 组件 times 属性下 node 属性(String)'
+                '修改 Timeline 组件 times 属性下 content 格式(string --> string[])',
+                  '新增 Timeline 组件 times 属性下 title 属性(string)',
+                  '新增 Timeline 组件 times 属性下 node 属性(string)'
               ]
             }
           ]),

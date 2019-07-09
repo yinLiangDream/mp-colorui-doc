@@ -44,10 +44,10 @@ import ClTabs from 'mp-colorui'
 
 | 参数        | 说明           | 类型   | 可选值                                          | 默认值      |
 | ----------- | -------------- | ------ | ----------------------------------------------- | ----------- |
-| type        | *tabs类型选择* | String | *`default`*,*`center`*,*`verb`*                 | *`default`* |
-| bgColor     | *背景色*       | String | 参考文档 [默认色](/home/color)                  | -           |
-| activeColor | *激活的颜色*   | String | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`black`*   |
-| active      | *激活的下标*   | Number | -                                               | 0           |
+| type        | *tabs类型选择* | string | *`default`*,*`center`*,*`verb`*                 | *`default`* |
+| bgColor     | *背景色*       | string | 参考文档 [默认色](/home/color)                  | -           |
+| activeColor | *激活的颜色*   | string | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`black`*   |
+| active      | *激活的下标*   | number | -                                               | 0           |
 | tabs        | *tab 数组*     | tabs[] | [详情](/navigate/tabs?id=tabs)                  | []          |
 
 
@@ -56,8 +56,8 @@ import ClTabs from 'mp-colorui'
 
 | 参数 | 说明   | 类型   | 可选值                                             | 默认值 |
 | ---- | ------ | ------ | -------------------------------------------------- | ------ |
-| text | *标题* | String | -                                                  | -      |
-| icon | *图标* | String | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -      |
+| text | *标题* | string | -                                                  | -      |
+| icon | *图标* | string | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -      |
 
 
 

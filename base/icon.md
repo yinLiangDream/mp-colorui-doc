@@ -20,9 +20,9 @@ import { ClIcon } from 'mp-colorui'
 
 | 参数     | 说明     | 类型            | 可选值                                          | 默认值     |
 | :------- | :------- | :-------------- | :---------------------------------------------- | :--------- |
-| iconName | 图标图案 | String          | 参考下表                                        | -          |
-| size     | 图标大小 | String / Number | 大于10的整数或者默认支持大小                    | *`normal`* |
-| color    | 图标颜色 | String          | 参考文档 [默认色-标准色](/home/color?id=标准色) | -          |
+| iconName | 图标图案 | string          | 参考下表                                        | -          |
+| size     | 图标大小 | string / Number | 大于10的整数或者默认支持大小                    | *`normal`* |
+| color    | 图标颜色 | string          | 参考文档 [默认色-标准色](/home/color?id=标准色) | -          |
 
 ### size
 

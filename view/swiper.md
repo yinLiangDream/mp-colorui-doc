@@ -36,29 +36,29 @@ import ClSwiper from 'mp-colorui'
 
 | 参数                 | 说明                   | 类型    | 可选值                       | 默认值     |
 | -------------------- | ---------------------- | ------- | ---------------------------- | ---------- |
-| type                 | *轮播图类型*           | String  | *`card`*,*`screen`*          | *`card`*   |
-| dot                  | *每个点的形状*         | String  | *`square`*,*`round`*         | *`square`* |
-| duration             | *滑动动画时长*         | Number  | *0-2000*                     | *500*      |
+| type                 | *轮播图类型*           | string  | *`card`*,*`screen`*          | *`card`*   |
+| dot                  | *每个点的形状*         | string  | *`square`*,*`round`*         | *`square`* |
+| duration             | *滑动动画时长*         | number  | *0-2000*                     | *500*      |
 | list                 | *每一项*               | list[]  | [详情](/view/swiper?id=list) | []         |
-| indicatorDots        | *是否显示面板指示点*   | Boolean | *`true`*,*`false`*           | *`false`*  |
-| indicatorColor       | *指示点颜色*           | String  | -                            | -          |
-| indicatorActiveColor | *当前选中的指示点颜色* | String  | -                            | -          |
-| interval             | *自动切换时间间隔*     | Boolean |                              | 5000       |
-| circular             | *是否采用衔接滑动*     | Boolean | *`true`*,*`false`*           | *`false`*  |
+| indicatorDots        | *是否显示面板指示点*   | boolean | *`true`*,*`false`*           | *`false`*  |
+| indicatorColor       | *指示点颜色*           | string  | -                            | -          |
+| indicatorActiveColor | *当前选中的指示点颜色* | string  | -                            | -          |
+| interval             | *自动切换时间间隔*     | boolean |                              | 5000       |
+| circular             | *是否采用衔接滑动*     | boolean | *`true`*,*`false`*           | *`false`*  |
 
 ### list
 
 | 参数        | 说明                                                         | 类型    | 可选值              | 默认值    |
 | ----------- | ------------------------------------------------------------ | ------- | ------------------- | --------- |
-| type        | *类型*                                                       | String  | *`image`*,*`video`* | *`image`* |
-| url         | *图片/视频的地址*                                            | String  | -                   | -         |
-| autoplay    | *是否自动播放（video 有效）*                                 | Boolean | *`true`*,*`false`*  | *`false`* |
-| loop        | *循环播放（video 有效）*                                     | Boolean | *`true`*,*`false`*  | *`false`* |
-| muted       | *是否静音播放（video 有效）*                                 | Boolean | *`true`*,*`false`*  | *`false`* |
-| showPlayBtn | *是否显示视频底部控制栏的播放按钮（video 有效）*             | Boolean | *`true`*,*`false`*  | *`false`* |
-| controls    | *是否显示默认播放控件（播放/暂停按钮、播放进度、时间）（video 有效）* | Boolean | *`true`*,*`false`*  | *`false`* |
-| title       | *视频的标题，全屏时在顶部展示（video 有效）*                 | String  | -                   | -         |
-| poster      | *视频封面的图片网络资源地址或云文件ID（video 有效）*         | String  | -                   | -         |
+| type        | *类型*                                                       | string  | *`image`*,*`video`* | *`image`* |
+| url         | *图片/视频的地址*                                            | string  | -                   | -         |
+| autoplay    | *是否自动播放（video 有效）*                                 | boolean | *`true`*,*`false`*  | *`false`* |
+| loop        | *循环播放（video 有效）*                                     | boolean | *`true`*,*`false`*  | *`false`* |
+| muted       | *是否静音播放（video 有效）*                                 | boolean | *`true`*,*`false`*  | *`false`* |
+| showPlayBtn | *是否显示视频底部控制栏的播放按钮（video 有效）*             | boolean | *`true`*,*`false`*  | *`false`* |
+| controls    | *是否显示默认播放控件（播放/暂停按钮、播放进度、时间）（video 有效）* | boolean | *`true`*,*`false`*  | *`false`* |
+| title       | *视频的标题，全屏时在顶部展示（video 有效）*                 | string  | -                   | -         |
+| poster      | *视频封面的图片网络资源地址或云文件ID（video 有效）*         | string  | -                   | -         |
 
 
 

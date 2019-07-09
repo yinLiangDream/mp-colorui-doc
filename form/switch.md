@@ -40,11 +40,11 @@ import ClSwitch from 'mp-colorui'
 
 | 参数    | 说明          | 类型    | 可选值                                          | 默认值     |
 | ------- | ------------- | ------- | ----------------------------------------------- | ---------- |
-| type    | *switch 类型* | String  | *`normal`*,*`form`*                             | *`normal`* |
-| title   | *标题*        | String  | -                                               | -          |
-| shape   | *形状*        | String  | *`normal`*,*`radius`*                           | *`normal`* |
-| color   | *选中颜色*    | String  | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`green`*  |
-| checked | *是否选中*    | Boolean | *`true`*,*`false`*                              | *`false`*  |
+| type    | *switch 类型* | string  | *`normal`*,*`form`*                             | *`normal`* |
+| title   | *标题*        | string  | -                                               | -          |
+| shape   | *形状*        | string  | *`normal`*,*`radius`*                           | *`normal`* |
+| color   | *选中颜色*    | string  | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`green`*  |
+| checked | *是否选中*    | boolean | *`true`*,*`false`*                              | *`false`*  |
 
 
 

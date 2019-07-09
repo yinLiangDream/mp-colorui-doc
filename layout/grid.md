@@ -22,8 +22,8 @@ import ClGrid from 'mp-colorui'
 
 | 参数 | 说明             | 类型   | 可选值                | 默认值     |
 | ---- | ---------------- | ------ | --------------------- | ---------- |
-| col  | *一行分割成几格* | Number | `2`,`3`,`4`,`5`       | 3          |
-| mode | *类型*           | String | *`square`*,*`normal`* | *`normal`* |
+| col  | *一行分割成几格* | number | `2`,`3`,`4`,`5`       | 3          |
+| mode | *类型*           | string | *`square`*,*`normal`* | *`normal`* |
 
 
 <div style="position: fixed; right:10px; top: 5%">

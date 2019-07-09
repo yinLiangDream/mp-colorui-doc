@@ -30,9 +30,9 @@ import ClAnimation from 'mp-colorui'
 
 | 参数    | 说明       | 类型    | 可选值                                                       | 默认值    |
 | ------- | ---------- | ------- | ------------------------------------------------------------ | --------- |
-| type    | *动画类型* | String  | *`fade`*, *`scale-up`*, *`scale-down`*, *`slide-top`*, *`slide-bottom`*, *`slide-left`*, *`slide-right`*, *`shake`* | *`fade`*  |
-| reserve | *动画反转* | Boolean | `true`, `false`                                              | *`false`* |
-| delay   | *延迟执行* | Number  | -                                                            | 0         |
+| type    | *动画类型* | string  | *`fade`*, *`scale-up`*, *`scale-down`*, *`slide-top`*, *`slide-bottom`*, *`slide-left`*, *`slide-right`*, *`shake`* | *`fade`*  |
+| reserve | *动画反转* | boolean | `true`, `false`                                              | *`false`* |
+| delay   | *延迟执行* | number  | -                                                            | 0         |
 
 <div style="position: fixed; right:10px; top: 5%">
 <div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页端目前还未完全适配，请以小程序端为准。</div>

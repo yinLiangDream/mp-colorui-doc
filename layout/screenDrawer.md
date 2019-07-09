@@ -24,7 +24,7 @@ import ClScreenDrawer from 'mp-colorui'
 
 | 参数         | 说明                | 类型    | 可选值             | 默认值    |
 | ------------ | ------------------- | ------- | ------------------ | --------- |
-| show         | *显示 screenDrawer* | Boolean | *`true`*,*`false`* | *`false`* |
+| show         | *显示 screenDrawer* | boolean | *`true`*,*`false`* | *`false`* |
 | renderPage   | 页面显示内容        | Element | -                  | -         |
 | renderDrawer | 抽屉显示的内容      | Element | -                  | -         |
 

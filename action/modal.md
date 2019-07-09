@@ -58,14 +58,14 @@ const title = <View>我是标题</View>
 
 | 参数            | 说明                   | 类型      | 可选值                                               | 默认值    |
 | --------------- | ---------------------- | --------- | ---------------------------------------------------- | --------- |
-| show            | *是否显示*             | Boolean   | *`true`*,*`false`*                                   | *`false`* |
-| title           | 标题                   | String    | -                                                    | -         |
-| close           | *是否显示关闭按钮*     | Boolean   | *`true`*,*`false`*                                   | *`true`*  |
-| custom          | *是否自定义整个 modal* | Boolean   | *`true`*,*`false`*                                   | *`false`* |
-| closeWithShadow | *点击阴影关闭*         | Boolean   | *`true`*,*`false`*                                   | *`false`* |
-| titleBgColor    | *标题栏背景色*         | String    | 参考文档 [默认色](/home/color)                       | -         |
-| actionColor     | *操作栏颜色*           | String    | 参考文档 [默认色](/home/color)                       | -         |
-| padding         | *padding 距离*         | String    | *`xsmall`*,*`small`*,*`normal`*,*`large`*,*`xlarge`* | -         |
+| show            | *是否显示*             | boolean   | *`true`*,*`false`*                                   | *`false`* |
+| title           | 标题                   | string    | -                                                    | -         |
+| close           | *是否显示关闭按钮*     | boolean   | *`true`*,*`false`*                                   | *`true`*  |
+| custom          | *是否自定义整个 modal* | boolean   | *`true`*,*`false`*                                   | *`false`* |
+| closeWithShadow | *点击阴影关闭*         | boolean   | *`true`*,*`false`*                                   | *`false`* |
+| titleBgColor    | *标题栏背景色*         | string    | 参考文档 [默认色](/home/color)                       | -         |
+| actionColor     | *操作栏颜色*           | string    | 参考文档 [默认色](/home/color)                       | -         |
+| padding         | *padding 距离*         | string    | *`xsmall`*,*`small`*,*`normal`*,*`large`*,*`xlarge`* | -         |
 | actions         | *操作栏操作组*         | actions[] | [详情](/action/modal?id=actions)                     | []        |
 | renderAction    | *自定义操作栏*         | Element   | -                                                    | -         |
 | renderTitle     | *自定义标题栏*         | Element   | -                                                    | -         |
@@ -74,8 +74,8 @@ const title = <View>我是标题</View>
 
 | 参数  | 说明          | 类型   | 可选值                                          | 默认值 |
 | ----- | ------------- | ------ | ----------------------------------------------- | ------ |
-| text  | *action 文字* | String | -                                               | -      |
-| color | *action 颜色* | String | 参考文档 [默认色-标准色](/home/color?id=标准色) | -      |
+| text  | *action 文字* | string | -                                               | -      |
+| color | *action 颜色* | string | 参考文档 [默认色-标准色](/home/color?id=标准色) | -      |
 
 
 

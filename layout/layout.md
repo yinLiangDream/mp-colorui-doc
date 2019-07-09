@@ -36,11 +36,11 @@ import ClLayout from 'mp-colorui'
 
 | 参数             | 说明                             | 类型   | 可选值                                                       | 默认值     |
 | ---------------- | -------------------------------- | ------ | ------------------------------------------------------------ | ---------- |
-| float            | *浮动方向， 默认不浮动*          | String | *`left`*,*`right`*                                           | -          |
-| padding          | *padding 距离，默认没有 padding* | String | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*   | -          |
-| paddingDirection | *padding 方向*                   | String | *`around`*,*`horizontal`*,*`vertical`*,<br />*`left`*,*`right`*,*`top`* | *`around`* |
-| margin           | *margin 距离，默认没有 margin*   | String | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*   | -          |
-| marginDirection  | *margin 方向*                    | String | *`around`*,*`horizontal`*,*`vertical`*,<br />*`left`*,*`right`*,*`top`* | *`around`* |
+| float            | *浮动方向， 默认不浮动*          | string | *`left`*,*`right`*                                           | -          |
+| padding          | *padding 距离，默认没有 padding* | string | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*   | -          |
+| paddingDirection | *padding 方向*                   | string | *`around`*,*`horizontal`*,*`vertical`*,<br />*`left`*,*`right`*,*`top`* | *`around`* |
+| margin           | *margin 距离，默认没有 margin*   | string | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*   | -          |
+| marginDirection  | *margin 方向*                    | string | *`around`*,*`horizontal`*,*`vertical`*,<br />*`left`*,*`right`*,*`top`* | *`around`* |
 
 
 <div style="position: fixed; right:10px; top: 5%">

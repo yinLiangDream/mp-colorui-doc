@@ -34,9 +34,9 @@ import ClFlex from 'mp-colorui'
 
 | 参数    | 说明               | 类型    | 可选值                                              | 默认值    |
 | ------- | ------------------ | ------- | --------------------------------------------------- | --------- |
-| justify | *水平方向排列方式* | String  | *`start`*,*`end`*,*`center`*,*`between`*,*`around`* | *`start`* |
-| align   | *垂直方向排列方式* | String  | *`start`*,*`end`*,*`center`*                        | *`start`* |
-| wrap    | *换行*             | Boolean | *`true`*,*`false`*                                  | *`false`* |
+| justify | *水平方向排列方式* | string  | *`start`*,*`end`*,*`center`*,*`between`*,*`around`* | *`start`* |
+| align   | *垂直方向排列方式* | string  | *`start`*,*`end`*,*`center`*                        | *`start`* |
+| wrap    | *换行*             | boolean | *`true`*,*`false`*                                  | *`false`* |
 
 ### 子元素固定尺寸参数说明
 

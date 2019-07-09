@@ -32,8 +32,8 @@ import ClCard from 'mp-colorui'
 
 | 参数    | 说明               | 类型   | 可选值                         | 默认值   |
 | ------- | ------------------ | ------ | ------------------------------ | -------- |
-| type    | *卡片组件类型选择* | String | *`card`*,*`full`*              | *`card`* |
-| bgColor | *卡片背景色设置*   | String | 参考文档 [默认色](/home/color) | -        |
+| type    | *卡片组件类型选择* | string | *`card`*,*`full`*              | *`card`* |
+| bgColor | *卡片背景色设置*   | string | 参考文档 [默认色](/home/color) | -        |
 
 
 <div style="position: fixed; right:10px; top: 5%">
