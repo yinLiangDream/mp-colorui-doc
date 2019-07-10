@@ -26,6 +26,26 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.2.1', '2019-07-11', [
+            {
+              title: 'API',
+              desc: [
+                'Animation 组件',
+                '新增 onAnimationStart、onAnimationEnd 事件',
+                'Tabs 组件',
+                '新增 tabs 属性下的 id 属性',
+                '新增 touchMove 可滑动属性',
+                'VerticalTab 组件',
+                '新增 backTop 属性'
+              ]
+            }, {
+                title: 'BUG',
+                desc: [
+                  'Card 组件',
+                  '修复插入 children 内容时的异常提醒（不影响使用）'
+                ]
+            }
+          ]),
           generatorData('0.2.0', '2019-07-09', [
             {
               title: 'COMPONENT',

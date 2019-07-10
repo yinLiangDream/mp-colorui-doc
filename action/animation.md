@@ -13,13 +13,17 @@ import ClAnimation from 'mp-colorui'
 ### animation 类型
 
 ```jsx
-<ClAnimation type='fade' />
+<ClAnimation type='fade'>
+	...
+</ClAnimation>
 ```
 
 ### animation 动画翻转
 
 ```jsx
-<ClAnimation type='fade' reserve/>
+<ClAnimation type='fade' reserve>
+	...
+</ClAnimation>
 ```
 
 
@@ -33,6 +37,17 @@ import ClAnimation from 'mp-colorui'
 | type    | *动画类型* | string  | *`fade`*, *`scale-up`*, *`scale-down`*, *`slide-top`*, *`slide-bottom`*, *`slide-left`*, *`slide-right`*, *`shake`* | *`fade`*  |
 | reserve | *动画反转* | boolean | `true`, `false`                                              | *`false`* |
 | delay   | *延迟执行* | number  | -                                                            | 0         |
+
+
+
+## Animation 事件
+
+| 事件名称         | 说明         | 参数 |
+| ---------------- | ------------ | ---- |
+| onAnimationStart | 动画开始触发 | -    |
+| onAnimationEnd   | 动画结束触发 | -    |
+
+
 
 <div style="position: fixed; right:10px; top: 5%">
 <div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页端目前还未完全适配，请以小程序端为准。</div>
