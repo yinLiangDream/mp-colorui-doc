@@ -26,6 +26,14 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.2.2', '2019-07-13', [
+            {
+              title: 'COMPONENT',
+              desc: [
+                '新增 Accordion 手风琴组件'
+              ]
+            }
+          ]),
           generatorData('0.2.1', '2019-07-11', [
             {
               title: 'API',
