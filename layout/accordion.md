@@ -32,7 +32,7 @@ import { ClAccordion } from 'mp-colorui'
 
 ## 参数说明
 
-### Avatar 参数
+### Accordion 参数
 
 | 参数      | 说明               | 类型    | 可选值 | 默认值    |
 | --------- | ------------------ | ------- | ------ | --------- |
@@ -42,7 +42,7 @@ import { ClAccordion } from 'mp-colorui'
 | card      | *是否使用卡片形式* | boolean | -      | *`false`* |
 | speed     | *展开速度*         | number  | -      | *`0.15`*  |
 
-### Avatar 事件
+### Accordion 事件
 
 | 事件名称 | 说明           | 返回参数 |
 | -------- | -------------- | -------- |
