@@ -26,6 +26,14 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.2.3', '2019-07-15', [
+            {
+              title: 'COMPONENT',
+              desc: [
+                '新增 FloatButton 浮动按钮组件'
+              ]
+            }
+          ]),
           generatorData('0.2.2', '2019-07-13', [
             {
               title: 'COMPONENT',

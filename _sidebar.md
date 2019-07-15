@@ -8,6 +8,7 @@
 * [基础组件]()
 * * [Icon 图标](base/icon)
 * * [Button 按钮](base/button)
+* * [FloatButton 浮动按钮](base/floatButton)
 * * [Text 文字](base/text)
 * [视图组件]()
 * * [Avatar 头像](view/avatar)
