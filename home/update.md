@@ -26,6 +26,15 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.2.5', '2019-07-18', [
+            {
+              title: 'BUG',
+              desc: [
+                '修复 Message 重复提示文字消失问题',
+                '补全 Message 代码提示'
+              ]
+            }
+          ]),
           generatorData('0.2.4', '2019-07-18', [
             {
               title: 'COMPONENT',
