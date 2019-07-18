@@ -24,6 +24,9 @@
 * * [Progress 进度条](action/progress)
 * * [Loading 加载](action/loading)
 * * [Animation 动画](action/animation)
+
+* * [Message 提示消息](action/message)
+
 * [表单组件]()
 * * [Input 输入框](form/input)
 * * [Radio 单选按钮](form/radio)

@@ -26,6 +26,26 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.2.4', '2019-07-18', [
+            {
+              title: 'COMPONENT',
+              desc: [
+                '新增 Message 消息提示组件'
+              ]
+            },
+            {
+              title: 'API',
+              desc: [
+                '新增 Animation 组件 duration 属性'
+              ]
+            },
+            {
+              title: 'BUG',
+              desc: [
+                '修复 FloatButton 组件拖动穿透事件，拖动卡顿问题，提升动画速度，并新增收拢动画'
+              ]
+            }
+          ]),
           generatorData('0.2.3', '2019-07-15', [
             {
               title: 'COMPONENT',
