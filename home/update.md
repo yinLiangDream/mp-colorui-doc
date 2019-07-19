@@ -26,6 +26,20 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.2.6', '2019-07-19', [
+            {
+              title: 'API',
+              desc: [
+                'Card 组件新增 shadow 属性'
+              ]
+            },
+            {
+              title: 'BUG',
+              desc: [
+                '修复 Message 的一些小问题'
+              ]
+            }
+          ]),
           generatorData('0.2.5', '2019-07-18', [
             {
               title: 'BUG',
