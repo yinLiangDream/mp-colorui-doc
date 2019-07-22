@@ -8,6 +8,10 @@ import ClModal from 'mp-colorui'
 
 
 
+## 注意
+
+> `onClose`, `onCancel` 方法触发时，请再手动设置 `show` 的参数为 `false`，否则该 `props` 参数会一直为 `true`，并会随其他 `modal` 一起再次出现。
+
 ## 一般用法
 
 ### 显示模态框
