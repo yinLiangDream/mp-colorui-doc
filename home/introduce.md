@@ -21,10 +21,3 @@ Taro 是由 [京东·凹凸实验室](https://aotu.io/) 倾力打造的多端开
 ## 贡献
 
 如果你在使用 `MP ColorUI` 时遇到问题，或者有好的建议，欢迎给我们提 [Issue](https://github.com/yinLiangDream/mp-colorui/issues) 
-
-
-
-## 交流
-
-QQ 群：580366924
-
