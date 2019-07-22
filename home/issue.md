@@ -13,4 +13,10 @@
 
 
 
+## 投票及建议
+
+
+
+[![建议及投票](https://feathub.com/yinLiangDream/mp-colorui?format=svg)](https://feathub.com/yinLiangDream/mp-colorui)
+
 ## 有使用任何问题请给作者[留言](https://github.com/yinLiangDream/mp-colorui/issues)
