@@ -26,6 +26,20 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.2.7', '2019-07-23', [
+            {
+              title: 'COMPONENT',
+              desc: [
+                '新增 Divider 分割线组价'
+              ]
+            }, {
+              title: 'BUG',
+              desc: [
+                '修复 Timeline H5 适配问题',
+                '修复 Timeline node 节点展示不正确问题'
+              ]
+            }
+          ]),
           generatorData('0.2.6', '2019-07-19', [
             {
               title: 'API',

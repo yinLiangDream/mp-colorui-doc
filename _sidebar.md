@@ -19,6 +19,7 @@
 * * [SearchBar 搜索栏](view/searchBar)
 * * [ShopBar 购物栏](view/shopBar)
 * * [TitleBar 标题栏](view/titleBar)
+* * [Divider 分割线](view/divider)
 * [操作反馈]()
 * * [Modal 模态框](action/modal)
 * * [Progress 进度条](action/progress)
