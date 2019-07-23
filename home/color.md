@@ -29,10 +29,6 @@
   </div>
 </div>
 
-<div style="position: fixed; right:10px; top: 5%">
-<iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/color/index" height="568" width="375"></iframe>
-</div>
-
 <script>
 new Vue({
   el: '#main',
