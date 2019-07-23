@@ -30,7 +30,7 @@ new Vue({
             {
               title: 'COMPONENT',
               desc: [
-                '新增 Divider 分割线组价'
+                '新增 Divider 分割线组件'
               ]
             }, {
               title: 'BUG',
