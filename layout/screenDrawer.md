@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClScreenDrawer from 'mp-colorui'
+import {ClScreenDrawer} from 'mp-colorui'
 ```
 
 

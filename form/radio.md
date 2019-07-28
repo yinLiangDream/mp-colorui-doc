@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClRadio from 'mp-colorui'
+import {ClRadio} from 'mp-colorui'
 ```
 
 

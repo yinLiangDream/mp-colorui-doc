@@ -25,10 +25,9 @@
 * * [Progress 进度条](action/progress)
 * * [Loading 加载](action/loading)
 * * [Animation 动画](action/animation)
-
 * * [Message 提示消息](action/message)
-
 * [表单组件]()
+* * [Form 表单](form/form)
 * * [Input 输入框](form/input)
 * * [Radio 单选按钮](form/radio)
 * * [Checkbox 多选按钮](form/checkbox)
@@ -49,3 +48,5 @@
 * * [TabBar 标签栏](navigate/tabBar)
 * * [Tabs 标签页](navigate/tabs)
 * * [VertialTab 垂直导航](navigate/verticalTab)
+* [内置函数]()
+* * [rule 校验](util/rule)

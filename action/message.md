@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClMessage from 'mp-colorui'
+import {ClMessage} from 'mp-colorui'
 ```
 
 
@@ -11,6 +11,8 @@ import ClMessage from 'mp-colorui'
 ## 注意
 
 > 若引用该组件后 duration 发生变化，请自己手动设置 duration，由于单一实例问题，会默认使用前一个状态的 duration。
+>
+> onClose 方法中请手动设置 show 为 false。
 
 ## 一般用法
 

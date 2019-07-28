@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClCard from 'mp-colorui'
+import {ClCard} from 'mp-colorui'
 ```
 
 

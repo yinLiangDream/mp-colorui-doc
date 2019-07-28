@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClProgress from 'mp-colorui'
+import {ClProgress} from 'mp-colorui'
 ```
 
 

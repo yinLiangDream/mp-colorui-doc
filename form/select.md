@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClSelect from 'mp-colorui'
+import {ClSelect} from 'mp-colorui'
 ```
 
 

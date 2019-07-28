@@ -1,7 +1,7 @@
 ## 使用说明
 
 ```jsx
-import ClFlex from 'mp-colorui'
+import {ClFlex} from 'mp-colorui'
 ```
 
 

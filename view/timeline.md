@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClTimeline from 'mp-colorui'
+import {ClTimeline} from 'mp-colorui'
 ```
 
 

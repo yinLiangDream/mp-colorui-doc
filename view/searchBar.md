@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClSearchBar from 'mp-colorui'
+import {ClSearchBar} from 'mp-colorui'
 ```
 
 

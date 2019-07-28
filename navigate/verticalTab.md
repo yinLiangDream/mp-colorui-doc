@@ -3,9 +3,7 @@
 ### 使用说明
 
 ```jsx
-import ClVerticalTab from 'mp-colorui'
-
-import ClVerticalTabCell from 'mp-colorui'
+import {ClVerticalTab, ClVerticalTabCell} from 'mp-colorui'
 ```
 
 

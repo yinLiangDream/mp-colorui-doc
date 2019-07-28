@@ -3,7 +3,7 @@
 ## 使用说明
 
 ```jsx
-import ClTitleBar from 'mp-colorui'
+import {ClTitleBar} from 'mp-colorui'
 ```
 
 

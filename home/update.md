@@ -26,6 +26,26 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.3.0', '2019-07-28', [
+            {
+              title: 'COMPONENT',
+              desc: [
+                '新增 Form, FormItem 组件'
+              ]
+            }, {
+               title: 'API',
+               desc: [
+                 '新增内置校验函数'
+               ]
+            }, {
+               title: 'BUG',
+               desc: [
+                 '修复 Message 代码不提示问题',
+                 '修复文档引入组件描述错误',
+                 '修复 Input 组件 H5 下由于 value 绑定而无法输入的 bug（Taro 的 bug）'
+               ]
+            }
+          ]),
           generatorData('0.2.7', '2019-07-23', [
             {
               title: 'COMPONENT',

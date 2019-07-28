@@ -1,7 +1,7 @@
 ## 使用说明
 
 ```jsx
-import ClGrid from 'mp-colorui'
+import {ClGrid} from 'mp-colorui'
 ```
 
 

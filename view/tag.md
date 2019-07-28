@@ -2,8 +2,8 @@
 
 ## 使用说明
 
-```js
-import ClTag from 'mp-colorui'
+```jsx
+import {ClTag} from 'mp-colorui'
 ```
 
 ## 一般用法

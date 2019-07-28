@@ -2,8 +2,8 @@
 
 ## 使用说明
 
-```js
-import ClStep from 'mp-colorui'
+```jsx
+import {ClStep} from 'mp-colorui'
 ```
 
 

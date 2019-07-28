@@ -2,8 +2,8 @@
 
 ## 使用说明
 
-```js
-import ClSwiper from 'mp-colorui'
+```jsx
+import {ClSwiper} from 'mp-colorui'
 ```
 
 
