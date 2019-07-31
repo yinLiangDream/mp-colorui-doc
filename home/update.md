@@ -26,6 +26,15 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.3.3', '2019-07-31', [
+            {
+              title: 'BUG',
+              desc: [
+                '修复H5 Switch color 为红色不显示问题',
+                '修复小程序 Switch 引入报错问题'
+              ]
+            }
+          ]),
           generatorData('0.3.2', '2019-07-31', [
             {
               title: 'ADAPTATION',
