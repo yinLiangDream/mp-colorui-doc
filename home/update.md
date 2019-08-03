@@ -26,6 +26,14 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.3.4', '2019-08-03', [
+            {
+              title: 'BUG',
+              desc: [
+                '修复 FloatButton 不展开仍然有阴影 bug'
+              ]
+            }
+          ]),
           generatorData('0.3.3', '2019-07-31', [
             {
               title: 'BUG',
