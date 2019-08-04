@@ -71,7 +71,7 @@ import {ClSwiper} from 'mp-colorui'
 
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页端目前还未完全适配，请以小程序端为准。</div>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
 <iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/swiper/index" height="568" width="375"></iframe>
 <div>
 		<p>H5 演示</p>

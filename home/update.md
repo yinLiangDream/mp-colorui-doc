@@ -26,6 +26,14 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.3.5', '2019-08-04', [
+            {
+              title: 'ADAPTATION',
+              desc: [
+                'VerticalTab 组件 H5 适配'
+              ]
+            }
+          ]),
           generatorData('0.3.4', '2019-08-03', [
             {
               title: 'BUG',

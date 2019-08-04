@@ -53,10 +53,6 @@ const tabs = [{
 </ClVerticalTab>
 ```
 
-
-
-
-
 ## 参数说明
 
 ### VerticalTab 参数
@@ -76,3 +72,31 @@ const tabs = [{
 | ---- | ---------- | ------ | ------ | ------ |
 | id   | *Tab id*   | string | -      | -      |
 | name | *Tab 名称* | string | -      | -      |
+
+<div style="position: fixed; right:10px; top: 5%">
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
+<iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/verticalTab/index" height="568" width="375"></iframe>
+<div>
+		<p>H5 演示</p>
+		<div id='qrcode'></div>
+	</div>
+</div>
+
+<script>
+	new Vue({
+		el: '#main',
+		mounted() {
+			setTimeout(() => {
+				const id = document.getElementById("qrcode");
+				new QRCode(id, {
+					text: "https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/verticalTab/index",
+					width: 128,
+					height: 128,
+					colorDark : "#000000",
+					colorLight : "#ffffff",
+					correctLevel : QRCode.CorrectLevel.H
+				});
+			});
+		}
+	})
+</script>
