@@ -26,6 +26,15 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.3.6', '2019-08-06', [
+            {
+              title: 'ADAPTATION',
+              desc: [
+                'Swiper Card 模式 H5 适配',
+                '祝大家明天七夕快乐~'
+              ]
+            }
+          ]),
           generatorData('0.3.5', '2019-08-04', [
             {
               title: 'ADAPTATION',
