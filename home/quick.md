@@ -15,25 +15,14 @@
 ```js
 // page.js
 import { ClButton } from 'mp-colorui'
-// 除了引入所需的组件，还需要手动引入组件样式
-// app.js
-import 'mp-colorui/dist/style/index.scss' // 全局引入一次即可
 ```
 
-**引入组件样式的两种方式**
+**引入组件样式**
 
-- **全局引入（JS中）：** 在入口文件中引入 `taro-ui` 所有的样式
-
-```js
-@import "~mp-colorui/dist/style/index.scss"; // 引入组件样式 - 方式二
-```
-
- 
-
-- **全局引入（CSS中）：** 在 `app.scss` 样式文件中 `import` 组件样式并按照文档说明使用
+**全局引入（CSS中）：** 在 `app.scss` 样式文件中 `import` 组件样式并按照文档说明使用
 
 ```scss
-@import "~mp-colorui/dist/style/index.scss"; // 引入组件样式 - 方式二
+@import "~mp-colorui/dist/style/index.scss"; // 引入组件样式
 ```
 
  
