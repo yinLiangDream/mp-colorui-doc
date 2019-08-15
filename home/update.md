@@ -26,6 +26,14 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.3.7', '2019-08-15', [
+            {
+              title: 'ADAPTATION',
+              desc: [
+                'Select 组件 mode=region 模块重构，并且适配 H5 端的地址选择'
+              ]
+            }
+          ]),
           generatorData('0.3.6', '2019-08-06', [
             {
               title: 'ADAPTATION',
