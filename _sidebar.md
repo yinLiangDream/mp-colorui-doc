@@ -48,5 +48,5 @@
 * * [TabBar 标签栏](navigate/tabBar)
 * * [Tabs 标签页](navigate/tabs)
 * * [VertialTab 垂直导航](navigate/verticalTab)
-* [内置函数]()
+* [内置工具]()
 * * [rule 校验](util/rule)

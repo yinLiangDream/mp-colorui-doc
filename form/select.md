@@ -28,6 +28,23 @@ import {ClSelect} from 'mp-colorui'
 <ClSelect disabled />
 ```
 
+### 地区选择
+
+```jsx
+const value = [{
+  key: 110000,
+  value: '北京市'
+}, {
+  key: 110100,
+  value: '市辖区'
+}, {
+  key: 110101,
+  value: '东城区'
+}]
+
+<ClSelect mode='region' value={value} />
+```
+
 
 
 ## 参数说明
@@ -90,10 +107,16 @@ import {ClSelect} from 'mp-colorui'
 
 ### region
 
-| 参数       | 说明                                 | 类型     | 可选值 | 默认值                       |
-| ---------- | ------------------------------------ | -------- | ------ | ---------------------------- |
-| value      | *选中的值*                           | string[] | -      | ['北京市','北京市','东城区'] |
-| customItem | *可为每一列的顶部添加一个自定义的项* | string   | -      | -                            |
+| 参数  | 说明                                                         | 类型     | 可选值 | 默认值 |
+| ----- | ------------------------------------------------------------ | -------- | ------ | ------ |
+| value | *初始化选中的值（具体 key,value请查看[地区编码](https://yinliangdream.github.io/area/)）（[示例](/form/select?id=地区选择)）* | region[] | -      | []     |
+
+#### region 参数
+
+| 参数  | 说明         | 类型   |
+| ----- | ------------ | ------ |
+| key   | 该地区的编码 | number |
+| value | 该地区的名字 | string |
 
 
 
