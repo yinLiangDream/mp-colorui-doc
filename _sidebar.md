@@ -5,6 +5,7 @@
 * * [默认色](home/color)
 * * [更新日志](home/update)
 * * [问题说明](home/issue)
+* * [开发计划](home/plan)
 * [基础组件]()
 * * [Icon 图标](base/icon)
 * * [Button 按钮](base/button)
