@@ -9,7 +9,7 @@
 
 ## 何时适配 H5
 
-其实 H5 的适配进度已经到达 80%，还有一些样式未完成，待小程序版本组件稳定后会专心适配 H5。
+其实 H5 的适配进度已基本完成，如有不适配部分请提[Issue](https://github.com/yinLiangDream/mp-colorui/issues)。
 
 
 
