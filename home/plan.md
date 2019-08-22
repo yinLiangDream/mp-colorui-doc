@@ -16,7 +16,7 @@
 
 ## 新组件企划
 
-- [ ] Tip 组件
+- [x] Tip 组件
 - [ ] Calendar 组件
 - [ ] ActionSheet 组件
 - [ ] SwiperAction 组件
