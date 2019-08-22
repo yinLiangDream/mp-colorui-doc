@@ -95,3 +95,22 @@ const renderMessage = (
 		<div id='qrcode'></div>
 	</div>
 </div>
+
+<script>
+	new Vue({
+		el: '#main',
+		mounted() {
+			setTimeout(() => {
+				const id = document.getElementById("qrcode");
+				new QRCode(id, {
+					text: "https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/tip/index",
+					width: 128,
+					height: 128,
+					colorDark : "#000000",
+					colorLight : "#ffffff",
+					correctLevel : QRCode.CorrectLevel.H
+				});
+			});
+		}
+	})
+</script>
