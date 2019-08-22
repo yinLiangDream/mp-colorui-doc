@@ -26,6 +26,22 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.4.0', '2019-08-22', [
+            {
+              title: 'FEATURE',
+              desc: [
+                '🎉🎉新增 Tip 组件'
+              ]
+            },
+            {
+              title: 'BUG',
+              desc: [
+                '修复 Text 组件不换行问题',
+                '修复 Area 类型声明错误',
+                '修复 Accordion 组件在某些情况下（父级属性 color 为 white）标题颜色为白色问题'
+              ]
+            }
+          ]),
           generatorData('0.3.7', '2019-08-15', [
             {
               title: 'ADAPTATION',

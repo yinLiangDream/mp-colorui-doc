@@ -27,6 +27,7 @@
 * * [Loading 加载](action/loading)
 * * [Animation 动画](action/animation)
 * * [Message 提示消息](action/message)
+* * [Tip 提示](action/tip)
 * [表单组件]()
 * * [Form 表单](form/form)
 * * [Input 输入框](form/input)
