@@ -26,6 +26,14 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.4.1', '2019-08-23', [
+            {
+              title: 'FEATURE',
+              desc: [
+                'Icon 组件支持第三方图标'
+              ]
+            }
+          ]),
           generatorData('0.4.0', '2019-08-22', [
             {
               title: 'FEATURE',
