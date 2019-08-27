@@ -36,12 +36,12 @@ import { ClAvatar } from 'mp-colorui'
 
 ### Avatar 参数
 
-| 参数        | 说明                   | 类型          | 可选值                                              | 默认值     |
-| ----------- | ---------------------- | ------------- | --------------------------------------------------- | ---------- |
-| shape       | *提供头像形状设置*     | string        | *`radius`*,*`round`*                                | *`radius`* |
-| size        | *提供头像组件大小设置* | string        | *`small`*,*`normal`*,*`large`*,*`xlarge`*           | *`normal`* |
-| shadow      | *提供头像组件阴影设置* | boolean       | *`true`*,*`false`*                                  | *`true`*   |
-| headerArray | *头像组数组*           | headerArray[] | 详细参数看 [这里](/view/avatar?id=headerarray) 查看 | []         |
+| 参数        | 说明                   | 类型           | 可选值                                              | 默认值     |
+| ----------- | ---------------------- | -------------- | --------------------------------------------------- | ---------- |
+| shape       | *提供头像形状设置*     | string         | *`radius`*,*`round`*                                | *`radius`* |
+| size        | *提供头像组件大小设置* | string\|number | *`small`*,*`normal`*,*`large`*,*`xlarge`*           | *`normal`* |
+| shadow      | *提供头像组件阴影设置* | boolean        | *`true`*,*`false`*                                  | *`true`*   |
+| headerArray | *头像组数组*           | headerArray[]  | 详细参数看 [这里](/view/avatar?id=headerarray) 查看 | []         |
 
 ### headerArray
 
