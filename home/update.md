@@ -26,6 +26,24 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.4.3', '2019-08-28', [
+            {
+              title: '🎉FEATURE',
+              desc: [
+                '组件 Input 新增 titleWidth、align、pattern 属性'
+              ]
+            },
+            {
+              title: '🐞BUG',
+              desc: [
+                '修复 Form 组件校验的一些问题',
+                '修复 FormItem required属性，红点显示的位置',
+                '取消 Message 组件的阴影',
+                '修复 Button 组件 disabled 下仍然有点击效果的问题',
+                '修复 Button 组件 disabled 下的颜色一直为白色问题'
+              ]
+            }
+          ]),
           generatorData('0.4.2', '2019-08-27', [
             {
               title: 'FEATURE',
