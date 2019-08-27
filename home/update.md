@@ -26,7 +26,7 @@ new Vue({
     data() {
       return {
         updateList: [
-          generatorData('0.4.3', '2019-08-28', [
+          generatorData('0.4.4', '2019-08-28', [
             {
               title: '🎉FEATURE',
               desc: [
