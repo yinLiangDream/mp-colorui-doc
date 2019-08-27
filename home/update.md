@@ -26,6 +26,16 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.4.5', '2019-08-28', [
+            {
+              title: '🐞BUG',
+              desc: [
+                '修复 Input 组件 align 失效问题',
+                '修复 Input 组件无法输入问题',
+                '修复 Checkbox 组件在 H5 下 onChange 事件参数错误问题'
+              ]
+            }
+          ]),
           generatorData('0.4.4', '2019-08-28', [
             {
               title: '🎉FEATURE',
