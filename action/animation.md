@@ -34,7 +34,7 @@ import {ClAnimation} from 'mp-colorui'
 
 | 参数     | 说明       | 类型    | 可选值                                                       | 默认值    |
 | -------- | ---------- | ------- | ------------------------------------------------------------ | --------- |
-| type     | *动画类型* | string  | *`fade`*, *`scale-up`*, *`scale-down`*, *`slide-top`*, <br />*`slide-bottom`*, *`slide-left`*, *`slide-right`*, *`shake`* | *`fade`*  |
+| type     | *动画类型* | string  | *`fade`*, *`scale-up`*, *`scale-down`*, *`slide-top`*, <br />*`slide-bottom`*, *`slide-left`*, *`slide-right`*, *`shake`*，`none` | *`fade`*  |
 | reserve  | *动画反转* | boolean | `true`, `false`                                              | *`false`* |
 | delay    | *延迟执行* | number  | -                                                            | 0         |
 | duration | 动画时间   | number  | -                                                            | 0.5       |
