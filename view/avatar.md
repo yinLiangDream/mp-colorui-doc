@@ -49,10 +49,10 @@ import { ClAvatar } from 'mp-colorui'
 | -------- | ------------------------------------ | ------ | -------------------------------------------------- | --------- |
 | text     | *头像内置文字(只显示第一个字)*       | string | -                                                  | -         |
 | tag      | *头像右上角小标签*                   | string | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -         |
-| tagColor | *提供头像组件右上角小标签背景色设置* | string | 参考文档 [默认色](/home/color)    | -         |
+| tagColor | *提供头像组件右上角小标签背景色设置* | string | 参考文档 [默认色](/home/color)                     | -         |
 | icon     | *头像内图标*                         | string | 参考文档 [Icon-*iconName*](/base/icon?id=iconname) | -         |
-| url      | *图片 url*                           | string | -                                                  |           |
-| bgColor  | *头像组件背景色设置*                 | string | 参考文档 [默认色](/home/color)    | *`black`* |
+| url      | *图片 url（仅能为网络地址）*         | string | -                                                  |           |
+| bgColor  | *头像组件背景色设置*                 | string | 参考文档 [默认色](/home/color)                     | *`black`* |
 
 ### Avatar 事件
 
