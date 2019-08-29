@@ -31,16 +31,74 @@ import {ClImagePicker} from 'mp-colorui'
 
 
 
+### 小程序代码示例
+
+```jsx
+state = {
+  imgList: []
+}
+
+success (list = []) {
+  this.setState({
+    imgList: list
+  })
+}
+
+<View>
+  <ClImagePicker
+    chooseImgObj={{
+      success: this.success.bind(this)
+    }}
+    imgList={this.state.imgList}
+    />
+  <ClLayout padding='normal' paddingDirection='around'>
+    <ClButton
+      shape='round'
+      long
+      onClick={() => {
+        this.setState({
+          imgList: this.state.imgList.map((item: any) => {
+            item.status = 'loading'
+            return item
+          })
+        })
+        this.state.imgList.forEach((item: any, index: number) => {
+          item.status = 'loading'
+          setTimeout(() => {
+            item.status = 'success'
+            if (index === 1) item.status = 'fail'
+            this.setState({
+              imgList: this.state.imgList
+            })
+          }, (index + 1) * 1000)
+        })
+      }}
+      >开始上传</ClButton>
+  </ClLayout>
+</View>
+```
+
+
+
 ## 参数说明
 
 ### ImagePicker 参数
 
-| 参数         | 说明           | 类型           | 可选值                                    | 默认值 |
-| ------------ | -------------- | -------------- | ----------------------------------------- | ------ |
-| chooseImgObj | *选择图片对象* | chooseImgObj[] | [详情](/form/imagePicker?id=chooseimgobj) | []     |
-| imgList      | *图片列表*     | string[]       | -                                         | -      |
+| 参数         | 说明           | 类型                                                | 可选值                                    | 默认值 |
+| ------------ | -------------- | --------------------------------------------------- | ----------------------------------------- | ------ |
+| chooseImgObj | *选择图片对象* | [chooseImgObj](/form/imagePicker?id=chooseImgObj)[] | [详情](/form/imagePicker?id=chooseimgobj) | []     |
+| imgList      | *图片列表*     | [imgList](/form/imagePicker?id=imglist)[]           | -                                         | []     |
 
 
+
+### imgList
+
+
+
+| 参数   | 说明         | 类型   | 可选值                            | 默认值 |
+| ------ | ------------ | ------ | --------------------------------- | ------ |
+| url    | 图片url      | string | -                                 | -      |
+| status | 图片上传状态 | string | `none`,`loading`,`success`,`fail` | `none` |
 
 ### chooseImgObj
 

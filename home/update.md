@@ -28,6 +28,20 @@ new Vue({
         updateList: [
           generatorData('0.4.5', '2019-08-28', [
             {
+              title: '🎉FEATURE',
+              desc: [
+                '重写 ImagePicker 组件，imgList 属性内容更变，请注意❗️'
+              ]
+            },
+            {
+              title: '🐞BUG',
+              desc: [
+                '修复 Utils 没有 @types 类型声明问题',
+                '修复 Animation 组件为 type 为 none 的问题',
+                '修复 VerticalTab H5 端滚动抖动问题'
+              ]
+            },
+            {
               title: '🐞BUG',
               desc: [
                 '修复 Input 组件 align 失效问题',
