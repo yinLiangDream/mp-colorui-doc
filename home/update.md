@@ -26,7 +26,22 @@ new Vue({
     data() {
       return {
         updateList: [
-          generatorData('0.4.5', '2019-08-28', [
+          generatorData('0.4.7', '2019-08-30', [
+            {
+              title: '🎉FEATURE',
+              desc: [
+                'SearchBar 新增 result、showResult、showLoading、onTouchResult 属性'
+              ]
+            }, {
+              title: '🐞BUG',
+              desc: [
+                '修复 ImagePicker H5 端更变状态时的报错问题',
+                '修复 Tip 组件 H5 下显示位置异常问题',
+                '修复多个 SearchBar 状态会共享问题'
+              ]
+            }
+          ]),
+          generatorData('0.4.6', '2019-08-29', [
             {
               title: '🎉FEATURE',
               desc: [
@@ -40,7 +55,9 @@ new Vue({
                 '修复 Animation 组件为 type 为 none 的问题',
                 '修复 VerticalTab H5 端滚动抖动问题'
               ]
-            },
+            }
+          ]),
+          generatorData('0.4.5', '2019-08-28', [
             {
               title: '🐞BUG',
               desc: [
