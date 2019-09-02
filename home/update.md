@@ -26,6 +26,18 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.4.8', '2019-09-02', [
+            {
+              title: '🐞BUG',
+              desc: [
+                '🐞修复动态改变 Input 的 value 值，实际界面没有变化的问题',
+                '🐞修复 MenuList 组件 shortBorder 属性失效问题',
+                '🐞优化 Material Input 表现形式',
+                '🐞修复 input=number 某些情况下会失效问题',
+                '🐞修复 ImagePicker 小程序端状态图标异常问题'
+              ]
+            }
+          ]),
           generatorData('0.4.7', '2019-08-30', [
             {
               title: '🎉FEATURE',
