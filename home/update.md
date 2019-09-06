@@ -26,6 +26,27 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.4.9', '2019-09-07', [
+            {
+              title: '🎉COMPONENT',
+              desc: [
+                '🎉🎉新增 SwiperAction 组件'
+              ]
+            },
+            {
+              title: '🌟FEATURE',
+              desc: [
+                '🌟新增 FloatButton 可自定义位置属性 position'
+              ]
+            },
+            {
+              title: '🐞BUG',
+              desc: [
+                '🐞修复 SearchBar H5端无法输入问题 修复 SearchBar 无效 class 属性问题',
+                '🐞修复各种组件因为 key 值编译时报 warning 问题'
+              ]
+            }
+          ]),
           generatorData('0.4.8', '2019-09-02', [
             {
               title: '🐞BUG',

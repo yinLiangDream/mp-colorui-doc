@@ -19,7 +19,5 @@
 - [x] Tip 组件
 - [ ] Calendar 组件
 - [ ] ActionSheet 组件
-- [ ] SwiperAction 组件
-
-
+- [x] SwiperAction 组件
 
