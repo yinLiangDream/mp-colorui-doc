@@ -34,13 +34,13 @@ import {ClShopBar} from 'mp-colorui'
 
 ### ShopBar 参数
 
-| 参数    | 说明             | 类型      | 可选值                                          | 默认值    |
-| ------- | ---------------- | --------- | ----------------------------------------------- | --------- |
-| bgColor | *背景色*         | string    | 参考文档 [默认色](/home/color) | *`white`* |
-| fix     | *是否固定在底部* | boolean   | *`true`*,*`false`*                              | *`false`* |
-| border  | *是否显示分割线* | boolean   | *`true`*,*`false`*                              | *`false`* |
-| tabs    | *每一项 tab*     | tabs[]    | [详情](/view/shopBar?id=tabs)                   | []        |
-| buttons | *右侧按钮组*     | buttons[] | [详情](/view/shopBar?id=buttons)                | []        |
+| 参数    | 说明             | 类型      | 可选值                           | 默认值    |
+| ------- | ---------------- | --------- | -------------------------------- | --------- |
+| bgColor | *背景色*         | string    | 参考文档 [默认色](/home/color)   | *`white`* |
+| fix     | *是否固定在底部* | boolean   | *`true`*,*`false`*               | *`false`* |
+| border  | *是否显示分割线* | boolean   | *`true`*,*`false`*               | *`false`* |
+| tabs    | *每一项 tab*     | tabs[]    | [详情](/view/shopBar?id=tabs)    | []        |
+| buttons | *右侧按钮组*     | buttons[] | [详情](/view/shopBar?id=buttons) | []        |
 
 ### tabs
 
@@ -55,9 +55,9 @@ import {ClShopBar} from 'mp-colorui'
 
 ### buttons
 
-| 参数    | 说明       | 类型   | 可选值                                          | 默认值 |
-| ------- | ---------- | ------ | ----------------------------------------------- | ------ |
-| text    | *按钮文字* | string | -                                               | -      |
+| 参数    | 说明       | 类型   | 可选值                         | 默认值 |
+| ------- | ---------- | ------ | ------------------------------ | ------ |
+| text    | *按钮文字* | string | -                              | -      |
 | bgColor | *按钮颜色* | string | 参考文档 [默认色](/home/color) | -      |
 
 
@@ -70,7 +70,7 @@ import {ClShopBar} from 'mp-colorui'
 | onClickButton | *每个按钮的点击事件* | index，*参数 index 为每一项的下标* |
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览会有无法触发 touch 事件等问题，请使用手机扫二维码预览。</div>
 <iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/shopBar/index" height="568" width="316"></iframe>
 <div>
 		<p>H5 演示</p>

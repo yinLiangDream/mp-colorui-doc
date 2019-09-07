@@ -38,24 +38,24 @@ import {ClStep} from 'mp-colorui'
 
 ### Step 参数说明
 
-| 参数              | 说明                     | 类型    | 可选值                                                       | 默认值     |
-| ----------------- | ------------------------ | ------- | ------------------------------------------------------------ | ---------- |
-| type              | *步骤条形状*             | string  | *`arrow`*,*`line`*                                           | *`line`*   |
+| 参数              | 说明                     | 类型    | 可选值                                          | 默认值     |
+| ----------------- | ------------------------ | ------- | ----------------------------------------------- | ---------- |
+| type              | *步骤条形状*             | string  | *`arrow`*,*`line`*                              | *`line`*   |
 | activeColor       | *激活的颜色*             | string  | 参考文档 [默认色-标准色](/home/color?id=标准色) | *`blue`*   |
-| step              | *默认激活第几步*         | number  | -                                                            | 0          |
-| stepIconType      | *每一步的样式，可自定义* | string  | *`number`*,*`space`*,*`custom`*                              | *`number`* |
-| stepTitlePosition | *每一步提示文字位置*     | string  | *`top`*,*`bottom`*                                           | *`bottom`* |
-| steps             | *每一步的内容            | steps[] | [详情](/view/steps?id=steps)                                 | -          |
+| step              | *默认激活第几步*         | number  | -                                               | 0          |
+| stepIconType      | *每一步的样式，可自定义* | string  | *`number`*,*`space`*,*`custom`*                 | *`number`* |
+| stepTitlePosition | *每一步提示文字位置*     | string  | *`top`*,*`bottom`*                              | *`bottom`* |
+| steps             | *每一步的内容            | steps[] | [详情](/view/steps?id=steps)                    | -          |
 
 ### steps
 
-| 参数  | 说明                                                         | 类型   | 可选值 | 默认值 |
-| ----- | ------------------------------------------------------------ | ------ | ------ | ------ |
-| title | 每一步提示文字                                               | string | -      | -      |
+| 参数  | 说明                                                                                                                       | 类型   | 可选值 | 默认值 |
+| ----- | -------------------------------------------------------------------------------------------------------------------------- | ------ | ------ | ------ |
+| title | 每一步提示文字                                                                                                             | string | -      | -      |
 | icon  | *每一步的图标，可选类型请查看 参考文档 <br />[Icon-iconName](/base/icon?id=iconname)*(仅在`stepIconType === custom`时有效) | string | -      | -      |
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览会有无法触发 touch 事件等问题，请使用手机扫二维码预览。</div>
 <iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/steps/index" height="568" width="316"></iframe>
 <div>
 		<p>H5 演示</p>

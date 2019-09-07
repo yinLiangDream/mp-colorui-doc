@@ -189,22 +189,22 @@ export default class Cl_Form extends Taro.Component {
 
 ### Form 参数
 
-| 参数  | 说明                                                         | 类型   | 可选值 | 默认值 |
-| ----- | ------------------------------------------------------------ | ------ | ------ | ------ |
-| model | *数据模型*                                                   | object | -      | {}     |
+| 参数  | 说明                                                                                                                                      | 类型   | 可选值 | 默认值 |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------ | ------ |
+| model | *数据模型*                                                                                                                                | object | -      | {}     |
 | rules | *校验规则(rules 里面的 key 必须和 model 对应，以校验对应 model 的值，且函数必须返回 boolean 值告诉组件库校验成功或者失败，具体看上方示例* | object | -      | {}     |
 
 ### FormItem 参数
 
-| 参数     | 说明                                                         | 类型    | 可选值 | 默认值    |
-| -------- | ------------------------------------------------------------ | ------- | ------ | --------- |
-| prop     | *prop 必须和 model 里的 key 值对应*                          | string  | -      | -         |
+| 参数     | 说明                                                                | 类型    | 可选值 | 默认值    |
+| -------- | ------------------------------------------------------------------- | ------- | ------ | --------- |
+| prop     | *prop 必须和 model 里的 key 值对应*                                 | string  | -      | -         |
 | required | *添加为必输项（此功能仅仅作为界面红点，具体校验请写在 rules 里面）* | boolean | -      | *`false`* |
 
 
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览会有无法触发 touch 事件等问题，请使用手机扫二维码预览。</div>
 <iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/form/index" height="568" width="316"></iframe>
 <div>
 		<p>H5 演示</p>

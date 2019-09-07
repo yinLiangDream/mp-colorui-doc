@@ -41,26 +41,26 @@ import { ClButton } from 'mp-colorui'
 
 
 
-| 参数      | 说明                         | 类型    | 可选值                                                       | 默认值      |
-| --------- | ---------------------------- | ------- | ------------------------------------------------------------ | ----------- |
-| shape     | *按钮形状设置*               | string  | *`round`*,*`radius`*                                         | *`radius`*  |
-| size      | *按钮大小设置*               | string  | *`small`*,`normal`,*`large`*                                 | *`normal`*  |
-| bgColor   | *按钮背景色设置*             | string  | *参考文档 [默认色](/home/color)*                             | *`blue`*    |
-| plain     | *镂空设置*                   | boolean | *`true`*,*`false`*                                           | *`false`*   |
-| plainSize | *镂空边框粗细设置*           | string  | *`default`*,*`bold`*                                         | *`default`* |
-| shadow    | *按钮阴影设置*               | boolean | *`true`*,*`false`*                                           | *`true`*    |
-| disabled  | *是否禁用*                   | boolean | *`true`*,*`false`*                                           | *`false`*   |
-| loading   | *显示加载图标*               | boolean | *`true`*,*`false`*                                           | *`false`*   |
-| text      | *按钮文字(同直接在标签里写)* | string  | -                                                            | -           |
+| 参数      | 说明                         | 类型    | 可选值                                                                                                                                              | 默认值      |
+| --------- | ---------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| shape     | *按钮形状设置*               | string  | *`round`*,*`radius`*                                                                                                                                | *`radius`*  |
+| size      | *按钮大小设置*               | string  | *`small`*,`normal`,*`large`*                                                                                                                        | *`normal`*  |
+| bgColor   | *按钮背景色设置*             | string  | *参考文档 [默认色](/home/color)*                                                                                                                    | *`blue`*    |
+| plain     | *镂空设置*                   | boolean | *`true`*,*`false`*                                                                                                                                  | *`false`*   |
+| plainSize | *镂空边框粗细设置*           | string  | *`default`*,*`bold`*                                                                                                                                | *`default`* |
+| shadow    | *按钮阴影设置*               | boolean | *`true`*,*`false`*                                                                                                                                  | *`true`*    |
+| disabled  | *是否禁用*                   | boolean | *`true`*,*`false`*                                                                                                                                  | *`false`*   |
+| loading   | *显示加载图标*               | boolean | *`true`*,*`false`*                                                                                                                                  | *`false`*   |
+| text      | *按钮文字(同直接在标签里写)* | string  | -                                                                                                                                                   | -           |
 | openType  | *开放能力*                   | string  | *`contact`*,*`getUserInfo`*,<br />*`getPhoneNumber`*,<br />*`openSetting`*,*`feedback`*,<br />*`getRealnameAuthInfo`*,<br />*`share`*,*`launchApp`* | -           |
 
 ### Button 事件
 
 
 
-| 事件名称         | 说明                                                         | 返回参数   |
-| ---------------- | ------------------------------------------------------------ | ---------- |
-| onClick          | 点击按钮时触发                                               | event 对象 |
+| 事件名称         | 说明                                                                                         | 返回参数   |
+| ---------------- | -------------------------------------------------------------------------------------------- | ---------- |
+| onClick          | 点击按钮时触发                                                                               | event 对象 |
 | onGetUserInfo    | 参考[微信button文档](https://developers.weixin.qq.com/miniprogram/dev/component/button.html) | event 对象 |
 | onContact        | 参考[微信button文档](https://developers.weixin.qq.com/miniprogram/dev/component/button.html) | event 对象 |
 | onGetPhoneNumber | 参考[微信button文档](https://developers.weixin.qq.com/miniprogram/dev/component/button.html) | event 对象 |
@@ -68,7 +68,7 @@ import { ClButton } from 'mp-colorui'
 | onOpenSetting    | 参考[微信button文档](https://developers.weixin.qq.com/miniprogram/dev/component/button.html) | event 对象 |
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览会有无法触发 touch 事件等问题，请使用手机扫二维码预览。</div>
 <iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/button/index" height="568" width="316"></iframe>
 <div>
 		<p>H5 演示</p>

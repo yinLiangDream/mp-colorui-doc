@@ -51,36 +51,36 @@ const value = [{
 
 ### Select 参数
 
-| 参数          | 说明                           | 类型    | 可选值                                                       | 默认值       |
-| ------------- | ------------------------------ | ------- | ------------------------------------------------------------ | ------------ |
-| title         | *标题*                         | string  | -                                                            | -            |
-| disabled      | *是否禁止选择*                 | boolean | *`true`*,*`false`*                                           | *`false`*    |
+| 参数          | 说明                           | 类型    | 可选值                                                            | 默认值       |
+| ------------- | ------------------------------ | ------- | ----------------------------------------------------------------- | ------------ |
+| title         | *标题*                         | string  | -                                                                 | -            |
+| disabled      | *是否禁止选择*                 | boolean | *`true`*,*`false`*                                                | *`false`*    |
 | mode          | *选择类型*，                   | string  | *`selector`*,*`multiSelector`*,<br />*`time`*,*`date`*,*`region`* | *`selector`* |
-| selector      | *mode 为 selector 时设置*      | Object  | [详情](/form/select?id=selector)                             | {}           |
-| multiSelector | *mode 为 multiSelector 时设置* | Object  | [详情](/form/select?id=multiSelector)                        | {}           |
-| time          | *mode 为 time 时设置*          | Object  | [详情](/form/select?id=time)                                 | {}           |
-| date          | *mode 为 date 时设置*          | Object  | [详情](/form/select?id=date)                                 | {}           |
-| region        | *mode 为 region 时设置*        | Object  | [详情](/form/select?id=region)                               | {}           |
+| selector      | *mode 为 selector 时设置*      | Object  | [详情](/form/select?id=selector)                                  | {}           |
+| multiSelector | *mode 为 multiSelector 时设置* | Object  | [详情](/form/select?id=multiSelector)                             | {}           |
+| time          | *mode 为 time 时设置*          | Object  | [详情](/form/select?id=time)                                      | {}           |
+| date          | *mode 为 date 时设置*          | Object  | [详情](/form/select?id=date)                                      | {}           |
+| region        | *mode 为 region 时设置*        | Object  | [详情](/form/select?id=region)                                    | {}           |
 
 
 
 ### selector
 
-| 参数     | 说明                                                         | 类型            | 可选值 | 默认值 |
-| -------- | ------------------------------------------------------------ | --------------- | ------ | ------ |
-| range    | *每一项*                                                     | Object/string[] | -      | []     |
+| 参数     | 说明                                                            | 类型            | 可选值 | 默认值 |
+| -------- | --------------------------------------------------------------- | --------------- | ------ | ------ |
+| range    | *每一项*                                                        | Object/string[] | -      | []     |
 | rangeKey | *若 range 每一项为 Object 类型，则此属性为对应要显示内容的 key* | string          | -      | -      |
-| value    | *默认选中的位置*                                             | number          | -      | 0      |
+| value    | *默认选中的位置*                                                | number          | -      | 0      |
 
 
 
 ### multiSelector
 
-| 参数     | 说明                                                         | 类型            | 可选值 | 默认值 |
-| -------- | ------------------------------------------------------------ | --------------- | ------ | ------ |
-| range    | *每一项*                                                     | Object/string[] | -      | []     |
+| 参数     | 说明                                                            | 类型            | 可选值 | 默认值 |
+| -------- | --------------------------------------------------------------- | --------------- | ------ | ------ |
+| range    | *每一项*                                                        | Object/string[] | -      | []     |
 | rangeKey | *若 range 每一项为 Object 类型，则此属性为对应要显示内容的 key* | string          | -      | -      |
-| value    | *默认选中的位置*                                             | number[]        | -      | [0, 0] |
+| value    | *默认选中的位置*                                                | number[]        | -      | [0, 0] |
 
 
 
@@ -107,8 +107,8 @@ const value = [{
 
 ### region
 
-| 参数  | 说明                                                         | 类型     | 可选值 | 默认值 |
-| ----- | ------------------------------------------------------------ | -------- | ------ | ------ |
+| 参数  | 说明                                                                                                                          | 类型     | 可选值 | 默认值 |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------- | -------- | ------ | ------ |
 | value | *初始化选中的值（具体 key,value请查看[地区编码](https://yinliangdream.github.io/area/)）（[示例](/form/select?id=地区选择)）* | region[] | -      | []     |
 
 #### region 参数
@@ -130,7 +130,7 @@ const value = [{
 
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览会有无法触发 touch 事件等问题，请使用手机扫二维码预览。</div>
 <iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/select/index" height="568" width="316"></iframe>
 <div>
 		<p>H5 演示</p>

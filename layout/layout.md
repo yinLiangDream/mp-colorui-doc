@@ -34,17 +34,17 @@ import {ClLayout} from 'mp-colorui'
 
 ### Layout 参数
 
-| 参数             | 说明                             | 类型   | 可选值                                                       | 默认值     |
-| ---------------- | -------------------------------- | ------ | ------------------------------------------------------------ | ---------- |
-| float            | *浮动方向， 默认不浮动*          | string | *`left`*,*`right`*                                           | -          |
-| padding          | *padding 距离，默认没有 padding* | string | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*   | -          |
+| 参数             | 说明                             | 类型   | 可选值                                                                  | 默认值     |
+| ---------------- | -------------------------------- | ------ | ----------------------------------------------------------------------- | ---------- |
+| float            | *浮动方向， 默认不浮动*          | string | *`left`*,*`right`*                                                      | -          |
+| padding          | *padding 距离，默认没有 padding* | string | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*              | -          |
 | paddingDirection | *padding 方向*                   | string | *`around`*,*`horizontal`*,*`vertical`*,<br />*`left`*,*`right`*,*`top`* | *`around`* |
-| margin           | *margin 距离，默认没有 margin*   | string | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*   | -          |
+| margin           | *margin 距离，默认没有 margin*   | string | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*              | -          |
 | marginDirection  | *margin 方向*                    | string | *`around`*,*`horizontal`*,*`vertical`*,<br />*`left`*,*`right`*,*`top`* | *`around`* |
 
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览会有无法触发 touch 事件等问题，请使用手机扫二维码预览。</div>
 <iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/layout/index" height="568" width="316"></iframe>
 <div>
 		<p>H5 演示</p>

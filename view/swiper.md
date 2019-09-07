@@ -48,17 +48,17 @@ import {ClSwiper} from 'mp-colorui'
 
 ### list
 
-| 参数        | 说明                                                         | 类型    | 可选值              | 默认值    |
-| ----------- | ------------------------------------------------------------ | ------- | ------------------- | --------- |
-| type        | *类型*                                                       | string  | *`image`*,*`video`* | *`image`* |
-| url         | *图片/视频的地址*                                            | string  | -                   | -         |
-| autoplay    | *是否自动播放（video 有效）*                                 | boolean | *`true`*,*`false`*  | *`false`* |
-| loop        | *循环播放（video 有效）*                                     | boolean | *`true`*,*`false`*  | *`false`* |
-| muted       | *是否静音播放（video 有效）*                                 | boolean | *`true`*,*`false`*  | *`false`* |
-| showPlayBtn | *是否显示视频底部控制栏的播放按钮（video 有效）*             | boolean | *`true`*,*`false`*  | *`false`* |
+| 参数        | 说明                                                                  | 类型    | 可选值              | 默认值    |
+| ----------- | --------------------------------------------------------------------- | ------- | ------------------- | --------- |
+| type        | *类型*                                                                | string  | *`image`*,*`video`* | *`image`* |
+| url         | *图片/视频的地址*                                                     | string  | -                   | -         |
+| autoplay    | *是否自动播放（video 有效）*                                          | boolean | *`true`*,*`false`*  | *`false`* |
+| loop        | *循环播放（video 有效）*                                              | boolean | *`true`*,*`false`*  | *`false`* |
+| muted       | *是否静音播放（video 有效）*                                          | boolean | *`true`*,*`false`*  | *`false`* |
+| showPlayBtn | *是否显示视频底部控制栏的播放按钮（video 有效）*                      | boolean | *`true`*,*`false`*  | *`false`* |
 | controls    | *是否显示默认播放控件（播放/暂停按钮、播放进度、时间）（video 有效）* | boolean | *`true`*,*`false`*  | *`false`* |
-| title       | *视频的标题，全屏时在顶部展示（video 有效）*                 | string  | -                   | -         |
-| poster      | *视频封面的图片网络资源地址或云文件ID（video 有效）*         | string  | -                   | -         |
+| title       | *视频的标题，全屏时在顶部展示（video 有效）*                          | string  | -                   | -         |
+| poster      | *视频封面的图片网络资源地址或云文件ID（video 有效）*                  | string  | -                   | -         |
 
 
 
@@ -71,7 +71,7 @@ import {ClSwiper} from 'mp-colorui'
 
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览可能会有些许问题，请使用手机扫二维码预览。</div>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览会有无法触发 touch 事件等问题，请使用手机扫二维码预览。</div>
 <iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/swiper/index" height="568" width="316"></iframe>
 <div>
 		<p>H5 演示</p>
