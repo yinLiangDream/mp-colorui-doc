@@ -29,6 +29,7 @@
 * * [Message 提示消息](action/message)
 * * [Tip 提示](action/tip)
 * * [SwiperAction 滑动操作](action/swiperAction)
+* * [ActionSheet 动作面板](action/actionSheet)
 * [表单组件]()
 * * [Form 表单](form/form)
 * * [Input 输入框](form/input)

@@ -26,6 +26,21 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.4.10', '2019-09-12', [
+            {
+              title: '🎉COMPONENT',
+              desc: [
+                '🎉🎉新增 ActionSheet 组件'
+              ]
+            },
+            {
+              title: '🐞BUG',
+              desc: [
+                '🐞修复类型声明错误问题',
+                '🐞修复 Text 组件无法插入 children 问题'
+              ]
+            }
+          ]),
           generatorData('0.4.9', '2019-09-07', [
             {
               title: '🎉COMPONENT',
