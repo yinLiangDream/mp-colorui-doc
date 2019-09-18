@@ -21,6 +21,7 @@
 * * [ShopBar 购物栏](view/shopBar)
 * * [TitleBar 标题栏](view/titleBar)
 * * [Divider 分割线](view/divider)
+* * [Curtain 幕帘](view/curtain)
 * [操作反馈]()
 * * [Modal 模态框](action/modal)
 * * [Progress 进度条](action/progress)
