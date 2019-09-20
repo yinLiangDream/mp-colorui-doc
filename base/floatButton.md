@@ -67,8 +67,9 @@ import { ClFloatButton } from 'mp-colorui'
 | onActionClick | 点击展开的按钮 | index 索引 |     |
 
 <div style="position: fixed; right:10px; top: 5%">
-<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral">网页预览会有无法触发 touch 事件等问题，请使用手机扫二维码预览。</div>
-<iframe style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/floatButton/index" height="568" width="316"></iframe>
+<div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral"><p>请使用手机扫二维码预览。</p>
+	<button id='showDemo'> 隐藏/显示 </button></div>
+<iframe id='iframe' style="border: 1px solid antiquewhite" src="https://yinliangdream.github.io/mp-colorui-h5-demo/#/pages/components/floatButton/index" height="568" width="316"></iframe>
 <div>
 		<p>H5 演示</p>
 		<div id='qrcode'></div>
@@ -89,6 +90,9 @@ import { ClFloatButton } from 'mp-colorui'
 					colorLight : "#ffffff",
 					correctLevel : QRCode.CorrectLevel.H
 				});
+				document.querySelector('#showDemo').onclick = function() {
+					document.querySelector('#iframe').style.visibility = document.querySelector('#iframe').style.visibility === 'hidden' ? '' : 'hidden';
+				}
 			});
 		}
 	})
