@@ -52,6 +52,7 @@ import { ClButton } from 'mp-colorui'
 | disabled  | *是否禁用*                   | boolean | *`true`*,*`false`*                                                                                                                                  | *`false`*   |
 | loading   | *显示加载图标*               | boolean | *`true`*,*`false`*                                                                                                                                  | *`false`*   |
 | text      | *按钮文字(同直接在标签里写)* | string  | -                                                                                                                                                   | -           |
+| long      | *`是否为长按钮`*             | boolean | -                                                                                                                                                   | `false`     |
 | openType  | *开放能力*                   | string  | *`contact`*,*`getUserInfo`*,<br />*`getPhoneNumber`*,<br />*`openSetting`*,*`feedback`*,<br />*`getRealnameAuthInfo`*,<br />*`share`*,*`launchApp`* | -           |
 
 ### Button 事件
