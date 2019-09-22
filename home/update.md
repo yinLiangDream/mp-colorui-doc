@@ -26,6 +26,29 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.4.12', '2019-09-22', [
+            {
+              title: '🌟FEATURE',
+              desc: [
+                '🌟Input 组件新增 defaultValue 属性'
+              ]
+            },
+            {
+              title: '🐞BUG',
+              desc: [
+                '🐞修复 Button 在H5 flex 布局下会拉伸问题',
+                ''
+              ]
+            }
+          ]),
+          generatorData('0.4.11', '2019-09-18', [
+            {
+              title: '🎉COMPONENT',
+              desc: [
+                '🎉🎉新增 Curtain 幕帘组件'
+              ]
+            }
+          ]),
           generatorData('0.4.10', '2019-09-12', [
             {
               title: '🎉COMPONENT',
