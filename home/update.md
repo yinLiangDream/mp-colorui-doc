@@ -37,7 +37,7 @@ new Vue({
               title: '🐞BUG',
               desc: [
                 '🐞修复 Button 在H5 flex 布局下会拉伸问题',
-                ''
+                '🐞修复含有 Input 控件的页面会报 width 错误 #12'
               ]
             }
           ]),
