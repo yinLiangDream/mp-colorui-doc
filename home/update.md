@@ -26,6 +26,20 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.5.0', '2019-09-25', [
+            {
+              title: 'FEATURE',
+              desc: [
+                '🎉🎉全面支持支付宝小程序~'
+              ]
+            },
+            {
+              title: 'BUG',
+              desc: [
+                '🐞修复 Button 缺失的属性，并添加诸多属性'
+              ]
+            }
+          ]),
           generatorData('0.4.12', '2019-09-22', [
             {
               title: '🌟FEATURE',
