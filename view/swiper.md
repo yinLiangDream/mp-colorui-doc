@@ -45,6 +45,7 @@ import {ClSwiper} from 'mp-colorui'
 | indicatorActiveColor | *当前选中的指示点颜色* | string  | -                            | -          |
 | interval             | *自动切换时间间隔*     | boolean |                              | 5000       |
 | circular             | *是否采用衔接滑动*     | boolean | *`true`*,*`false`*           | *`false`*  |
+| autoplay             | *是否自动轮播*         | boolean | -                            | `false`    |
 
 ### list
 
