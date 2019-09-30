@@ -50,15 +50,18 @@ import { ClText } from 'mp-colorui'
 
 ### Text 参数
 
-| 参数      | 说明             | 类型    | 可选值                                                                                              | 默认值     |
-| --------- | ---------------- | ------- | --------------------------------------------------------------------------------------------------- | ---------- |
-| size      | *文字大小*       | string  | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*,*`xxlarge`*,<br />*`slarge`*,*`xslarge`* | *`normal`* |
-| textColor | *文字颜色*       | string  | 参考文档 [默认色-标准色](/home/color?id=标准色)                                                     | *`black`*  |
-| bgColor   | *文字背景色*     | string  | 参考文档 [默认色](/home/color)                                                                      | -          |
-| cut       | *是否显示省略号* | boolean | *`true`*,*`false`*                                                                                  | *`false`*  |
-| align     | *文字对齐方式*   | string  | *`left`*,*`center`*,*`right`*                                                                       | *`left`*   |
-| special   | *特殊需求*       | string  | *`firstUpper`*,*`upper`*,*`lower`*                                                                  | -          |
-| text      | 文字内容         | string  | -                                                                                                   | -          |
+| 参数        | 说明             | 类型             | 可选值                                                       | 默认值     |
+| ----------- | ---------------- | ---------------- | ------------------------------------------------------------ | ---------- |
+| size        | *文字大小*       | string           | *`xsmall`*,*`small`*,*`normal`*,<br />*`large`*,*`xlarge`*,*`xxlarge`*,<br />*`slarge`*,*`xslarge`* | *`normal`* |
+| textColor   | *文字颜色*       | string           | 参考文档 [默认色-标准色](/home/color?id=标准色)              | *`black`*  |
+| bgColor     | *文字背景色*     | string           | 参考文档 [默认色](/home/color)                               | -          |
+| cut         | *是否显示省略号* | boolean          | *`true`*,*`false`*                                           | *`false`*  |
+| align       | *文字对齐方式*   | string           | *`left`*,*`center`*,*`right`*                                | *`left`*   |
+| special     | *特殊需求*       | string           | *`firstUpper`*,*`upper`*,*`lower`*                           | -          |
+| text        | 文字内容         | string           | -                                                            | -          |
+| lineSpacing | 行间距           | string \| number | `none`,`small`,`normal`,`large`                              | `none`     |
+| fontSpacing | 字间距           | string \| number | `none`,`small`,`normal`,`large`                              | `none`     |
+| fontWeight  | 字体粗细         | string \| number | `normal`,`bold`,`bolder`,`lighter`                           | `normal`   |
 
 <div style="position: fixed; right:10px; top: 5%">
 <div style="width: 355px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; font-size: 12px; color: lightcoral"><p>请使用手机扫二维码预览。</p>

@@ -26,6 +26,23 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.5.1', '2019-09-30', [
+            {
+              title: 'BUG',
+              desc: [
+                '🐞修复 Swiper 无法自动播放的问题 #19',
+                '🐞fix Select 组件 中 selector 的 value 不能动态设置 #18',
+                '🐞fix ClAvatar 组件，真机中url 地址为本地图片 显示为全黑 #20'
+              ]
+            },
+            {
+              title: 'FEATURE',
+              desc: [
+                '🌟Text 组件新增 lineSpacing 行间距，fontSpacing 字间距， fontWeight 字体粗细 属性',
+                '🌟grid 支持 1-10'
+              ]
+            }
+          ]),
           generatorData('0.5.0', '2019-09-25', [
             {
               title: 'FEATURE',
