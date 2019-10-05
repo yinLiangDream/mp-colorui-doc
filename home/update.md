@@ -26,6 +26,16 @@ new Vue({
     data() {
       return {
         updateList: [
+          generatorData('0.5.2', '2019-10-05', [
+            {
+              title: 'BUG',
+              desc: [
+                '🐞fix Radio 组件，不渲染问题',
+                '🐞fix Select 组件，多选不渲染问题',
+                '🐞fix According 组件，在某些机型下高度不对的问题'
+              ]
+            }
+          ]),
           generatorData('0.5.1', '2019-09-30', [
             {
               title: 'BUG',
