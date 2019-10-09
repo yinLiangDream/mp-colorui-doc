@@ -1,24 +1,655 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>MP-ColorUI</title>
-    <meta name="description" content="MP ColorUI 是一款基于 Taro 框架并且联合 Color-UI CSS 库开发的多端 UI 组件库（支持小程序端和H5端）">
-    
-    
-    <link rel="preload" href="/mp-colorui-doc/assets/css/0.styles.a49524f5.css" as="style"><link rel="preload" href="/mp-colorui-doc/assets/js/app.8033a957.js" as="script"><link rel="preload" href="/mp-colorui-doc/assets/js/2.88ce6865.js" as="script"><link rel="preload" href="/mp-colorui-doc/assets/js/32.4568c76b.js" as="script"><link rel="preload" href="/mp-colorui-doc/assets/js/6.32e26789.js" as="script"><link rel="preload" href="/mp-colorui-doc/assets/js/9.25155ec0.js" as="script"><link rel="preload" href="/mp-colorui-doc/assets/js/7.0ed054d5.js" as="script"><link rel="prefetch" href="/mp-colorui-doc/assets/js/10.0dab5817.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/11.7f637ffe.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/12.ab73692e.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/13.bb71b683.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/14.80b8f382.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/15.6d336326.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/16.3f9f3fb4.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/17.8e124fa9.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/18.73642eae.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/19.88f4058a.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/20.6b3b73e5.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/21.dabaaad2.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/22.f39326c7.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/23.f856e0f4.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/24.fb9a8f17.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/25.fb21db44.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/26.ec682207.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/27.b1609a9b.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/28.6f89b1ca.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/29.fe9bfdc8.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/3.5c219178.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/30.46c9900a.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/31.e20acf8c.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/33.cf4c2e6d.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/34.57ddbc7f.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/35.73256958.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/36.d6d27075.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/37.4d2b3c58.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/38.13a78425.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/39.b5928b13.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/4.eac86b7c.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/40.8940a6b9.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/41.0b5510a8.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/42.3d416d8a.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/43.3d9393f6.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/44.91e7ee2e.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/45.a7e87fa0.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/46.2384e6f7.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/47.ca425686.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/48.32b94223.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/49.52d0d6b9.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/5.60b3b0db.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/50.f10fb2d3.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/51.fa156316.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/52.623588ac.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/53.9d5870b9.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/54.7380dbeb.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/55.0da1b46c.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/56.0f9468d6.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/57.6fa7e260.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/58.895611b5.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/59.1014e307.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/60.061a0be1.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/61.2aa817b7.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/62.717e5b80.js"><link rel="prefetch" href="/mp-colorui-doc/assets/js/8.8079b9d3.js">
-    <link rel="stylesheet" href="/mp-colorui-doc/assets/css/0.styles.a49524f5.css">
+    <meta
+      name="description"
+      content="MP ColorUI 是一款基于 Taro 框架并且联合 Color-UI CSS 库开发的多端 UI 组件库（支持小程序端和H5端）"
+    />
+
+    <link
+      rel="preload"
+      href="/mp-colorui-doc/assets/css/0.styles.9a6d29e9.css"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="/mp-colorui-doc/assets/js/app.79e7c0fc.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/mp-colorui-doc/assets/js/2.5843e281.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/mp-colorui-doc/assets/js/32.534334c9.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/mp-colorui-doc/assets/js/6.57b61077.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/mp-colorui-doc/assets/js/9.367c3b6a.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/mp-colorui-doc/assets/js/7.8baf32a7.js"
+      as="script"
+    />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/10.91784899.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/11.5811863c.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/12.bfc618b5.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/13.b2ef1e7c.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/14.4f9083d7.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/15.bc4ed078.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/16.db4a2104.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/17.309d1a43.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/18.27452858.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/19.bb5a1323.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/20.43bd0efe.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/21.e301e233.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/22.f4ccd23b.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/23.4020d86a.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/24.a34bf82a.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/25.bfa88fb3.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/26.fcd4d035.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/27.87c09e0f.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/28.b9e18cf3.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/29.30b97014.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/3.00c27871.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/30.6fbaa49f.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/31.b9870a8b.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/33.b0b4b0a2.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/34.5548a2cb.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/35.e62b28b2.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/36.2fba8795.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/37.ce2a8531.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/38.7ba74072.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/39.eccb3604.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/4.51202076.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/40.6f19b2d7.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/41.a651c522.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/42.3cebeaee.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/43.c79f2456.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/44.19de90da.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/45.abb88e8c.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/46.b2727322.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/47.2305406f.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/48.309085fa.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/49.feb437c4.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/5.92b3f14f.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/50.f561dfd2.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/51.3391357f.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/52.ef6f16b5.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/53.c63dc4b9.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/54.d7a55a41.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/55.173f3a7c.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/56.ad6f36b5.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/57.341b1eaf.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/58.2313cfa0.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/59.0d7b70c6.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/60.a47613f5.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/61.992d115d.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/62.989b81ac.js" />
+    <link rel="prefetch" href="/mp-colorui-doc/assets/js/8.b3df571f.js" />
+    <link
+      rel="stylesheet"
+      href="/mp-colorui-doc/assets/css/0.styles.9a6d29e9.css"
+    />
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/mp-colorui-doc/" class="home-link router-link-active"><!----> <span class="site-name">MP-ColorUI</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/yinLiangDream/mp-colorui" target="_blank" rel="noopener noreferrer" class="nav-link external">
-  GitHub
-  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/yinLiangDream/mp-colorui" target="_blank" rel="noopener noreferrer" class="nav-link external">
-  GitHub
-  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/mp-colorui-doc/home/introduce" class="sidebar-heading clickable open"><span>入门</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/mp-colorui-doc/home/introduce.html" class="sidebar-link">介绍</a></li><li><a href="/mp-colorui-doc/home/quick.html" class="sidebar-link">快速上手</a></li><li><a href="/mp-colorui-doc/home/custom.html" class="sidebar-link">自定义主题</a></li><li><a href="/mp-colorui-doc/home/color.html" class="active sidebar-link">默认色</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/mp-colorui-doc/home/color.html#标准色" class="sidebar-link">标准色</a></li><li class="sidebar-sub-header"><a href="/mp-colorui-doc/home/color.html#浅色" class="sidebar-link">浅色</a></li><li class="sidebar-sub-header"><a href="/mp-colorui-doc/home/color.html#渐变色" class="sidebar-link">渐变色</a></li></ul></li><li><a href="/mp-colorui-doc/home/update.html" class="sidebar-link">更新日志</a></li><li><a href="/mp-colorui-doc/home/issue.html" class="sidebar-link">问题说明</a></li><li><a href="/mp-colorui-doc/home/plan.html" class="sidebar-link">开发计划</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/mp-colorui-doc/base/icon" class="sidebar-heading clickable"><span>基础组件</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/mp-colorui-doc/view/avatar" class="sidebar-heading clickable"><span>视图组件</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/mp-colorui-doc/action/modal" class="sidebar-heading clickable"><span>操作反馈</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/mp-colorui-doc/form/form" class="sidebar-heading clickable"><span>表单组件</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/mp-colorui-doc/layout/layout" class="sidebar-heading clickable"><span>布局组件</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/mp-colorui-doc/navigate/navBar" class="sidebar-heading clickable"><span>导航组件</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/mp-colorui-doc/util/rule" class="sidebar-heading clickable"><span>内置工具</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><hr> <p><code>MP ColorUI</code> 有以下默认色</p> <h2 id="标准色"><a href="#标准色" aria-hidden="true" class="header-anchor">#</a> 标准色</h2> <div style="display:flex;flex-wrap:wrap;justify-content:flex-start;" data-v-5e35b246><div style="border-radius:8px;width:120px;height:60px;background-color:#e54d42;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>red</div> <div data-v-5e35b246>#e54d42</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#f37b1d;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>orange</div> <div data-v-5e35b246>#f37b1d</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#fbbd08;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>yellow</div> <div data-v-5e35b246>#fbbd08</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#8dc63f;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>olive</div> <div data-v-5e35b246>#8dc63f</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#39b54a;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>green</div> <div data-v-5e35b246>#39b54a</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#1cbbb4;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>cyan</div> <div data-v-5e35b246>#1cbbb4</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#0081ff;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>blue</div> <div data-v-5e35b246>#0081ff</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#6739b6;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>purple</div> <div data-v-5e35b246>#6739b6</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#9c26b0;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>mauve</div> <div data-v-5e35b246>#9c26b0</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#e03997;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>pink</div> <div data-v-5e35b246>#e03997</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#a5673f;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>brown</div> <div data-v-5e35b246>#a5673f</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#8799a3;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>grey</div> <div data-v-5e35b246>#8799a3</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#333333;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>black</div> <div data-v-5e35b246>#333333</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#aaaaaa;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>gray</div> <div data-v-5e35b246>#aaaaaa</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#ffffff;color:#000000;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-5e35b246><div data-v-5e35b246>white</div> <div data-v-5e35b246>#ffffff</div></div></div> <h2 id="浅色"><a href="#浅色" aria-hidden="true" class="header-anchor">#</a> 浅色</h2> <div style="display:flex;flex-wrap:wrap;justify-content:flex-start;" data-v-3fbe2184><div style="border-radius:8px;width:120px;height:60px;background-color:#fadbd9;color:#e54d42;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>redLight</div> <div data-v-3fbe2184>#fadbd9</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#fde6d2;color:#f37b1d;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>orangeLight</div> <div data-v-3fbe2184>#fde6d2</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#fef2ce;color:#fbbd08;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>yellowLight</div> <div data-v-3fbe2184>#fef2ce</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#e8f4d9;color:#8dc63f;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>oliveLight</div> <div data-v-3fbe2184>#e8f4d9</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#d7f0db;color:#39b54a;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>greenLight</div> <div data-v-3fbe2184>#d7f0db</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#d2f1f0;color:#1cbbb4;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>cyanLight</div> <div data-v-3fbe2184>#d2f1f0</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#cce6ff;color:#0081ff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>blueLight</div> <div data-v-3fbe2184>#cce6ff</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#e1d7f0;color:#6739b6;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>purpleLight</div> <div data-v-3fbe2184>#e1d7f0</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#ebd4ef;color:#9c26b0;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>mauveLight</div> <div data-v-3fbe2184>#ebd4ef</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#f9d7ea;color:#e03997;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>pinkLight</div> <div data-v-3fbe2184>#f9d7ea</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#ede1d9;color:#a5673f;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>brownLight</div> <div data-v-3fbe2184>#ede1d9</div></div><div style="border-radius:8px;width:120px;height:60px;background-color:#e7ebed;color:#8799a3;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-3fbe2184><div data-v-3fbe2184>greyLight</div> <div data-v-3fbe2184>#e7ebed</div></div></div> <h2 id="渐变色"><a href="#渐变色" aria-hidden="true" class="header-anchor">#</a> 渐变色</h2> <div style="display:flex;flex-wrap:wrap;justify-content:flex-start;" data-v-106e0347><div style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #f43f3b, #ec008c);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-106e0347><div data-v-106e0347>gradualRed</div> <div data-v-106e0347>#f43f3b ~ #ec008c</div></div><div style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #ff9700, #ed1c24);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-106e0347><div data-v-106e0347>gradualOrange</div> <div data-v-106e0347>#ff9700 ~ #ed1c24</div></div><div style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #39b54a, #8dc63f);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-106e0347><div data-v-106e0347>gradualGreen</div> <div data-v-106e0347>#39b54a ~ #8dc63f</div></div><div style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #9000ff, #5e00ff);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-106e0347><div data-v-106e0347>gradualPurple</div> <div data-v-106e0347>#9000ff ~ #5e00ff</div></div><div style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #ec008c, #6739b6);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-106e0347><div data-v-106e0347>gradualPink</div> <div data-v-106e0347>#ec008c ~ #6739b6</div></div><div style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #0081ff, #1cbbb4);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;" data-v-106e0347><div data-v-106e0347>gradualBlue</div> <div data-v-106e0347>#0081ff ~ #1cbbb4</div></div></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
-      ←
-      <a href="/mp-colorui-doc/home/custom.html" class="prev">自定义主题</a></span> <span class="next"><a href="/mp-colorui-doc/home/update.html">更新日志</a>→
-    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
-    <script src="/mp-colorui-doc/assets/js/app.8033a957.js" defer></script><script src="/mp-colorui-doc/assets/js/2.88ce6865.js" defer></script><script src="/mp-colorui-doc/assets/js/32.4568c76b.js" defer></script><script src="/mp-colorui-doc/assets/js/6.32e26789.js" defer></script><script src="/mp-colorui-doc/assets/js/9.25155ec0.js" defer></script><script src="/mp-colorui-doc/assets/js/7.0ed054d5.js" defer></script>
+    <div id="app" data-server-rendered="true">
+      <div class="theme-container">
+        <header class="navbar">
+          <div class="sidebar-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              role="img"
+              viewBox="0 0 448 512"
+              class="icon"
+            >
+              <path
+                fill="currentColor"
+                d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"
+              ></path>
+            </svg>
+          </div>
+          <a href="/mp-colorui-doc/" class="home-link router-link-active"
+            ><!---->
+            <span class="site-name">MP-ColorUI</span></a
+          >
+          <div class="links">
+            <div class="search-box">
+              <input
+                aria-label="Search"
+                autocomplete="off"
+                spellcheck="false"
+                value=""
+              />
+              <!---->
+            </div>
+            <nav class="nav-links can-hide">
+              <div class="nav-item">
+                <a
+                  href="https://github.com/yinLiangDream/mp-colorui"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="nav-link external"
+                >
+                  GitHub
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 100 100"
+                    width="15"
+                    height="15"
+                    class="icon outbound"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"
+                    ></path>
+                    <polygon
+                      fill="currentColor"
+                      points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"
+                    ></polygon></svg
+                ></a>
+              </div>
+              <!---->
+            </nav>
+          </div>
+        </header>
+        <div class="sidebar-mask"></div>
+        <aside class="sidebar">
+          <nav class="nav-links">
+            <div class="nav-item">
+              <a
+                href="https://github.com/yinLiangDream/mp-colorui"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav-link external"
+              >
+                GitHub
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 100 100"
+                  width="15"
+                  height="15"
+                  class="icon outbound"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"
+                  ></path>
+                  <polygon
+                    fill="currentColor"
+                    points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"
+                  ></polygon></svg
+              ></a>
+            </div>
+            <!---->
+          </nav>
+          <ul class="sidebar-links">
+            <li>
+              <section class="sidebar-group collapsable depth-0">
+                <a
+                  href="/mp-colorui-doc/home/introduce"
+                  class="sidebar-heading clickable open"
+                  ><span>入门</span> <span class="arrow down"></span
+                ></a>
+                <ul class="sidebar-links sidebar-group-items">
+                  <li>
+                    <a
+                      href="/mp-colorui-doc/home/introduce.html"
+                      class="sidebar-link"
+                      >介绍</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mp-colorui-doc/home/quick.html"
+                      class="sidebar-link"
+                      >快速上手</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mp-colorui-doc/home/custom.html"
+                      class="sidebar-link"
+                      >自定义主题</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mp-colorui-doc/home/color.html"
+                      class="active sidebar-link"
+                      >默认色</a
+                    >
+                    <ul class="sidebar-sub-headers">
+                      <li class="sidebar-sub-header">
+                        <a
+                          href="/mp-colorui-doc/home/color.html#标准色"
+                          class="sidebar-link"
+                          >标准色</a
+                        >
+                      </li>
+                      <li class="sidebar-sub-header">
+                        <a
+                          href="/mp-colorui-doc/home/color.html#浅色"
+                          class="sidebar-link"
+                          >浅色</a
+                        >
+                      </li>
+                      <li class="sidebar-sub-header">
+                        <a
+                          href="/mp-colorui-doc/home/color.html#渐变色"
+                          class="sidebar-link"
+                          >渐变色</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      href="/mp-colorui-doc/home/update.html"
+                      class="sidebar-link"
+                      >更新日志</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mp-colorui-doc/home/issue.html"
+                      class="sidebar-link"
+                      >问题说明</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mp-colorui-doc/home/plan.html"
+                      class="sidebar-link"
+                      >开发计划</a
+                    >
+                  </li>
+                </ul>
+              </section>
+            </li>
+            <li>
+              <section class="sidebar-group collapsable depth-0">
+                <a
+                  href="/mp-colorui-doc/base/icon"
+                  class="sidebar-heading clickable"
+                  ><span>基础组件</span> <span class="arrow right"></span
+                ></a>
+                <!---->
+              </section>
+            </li>
+            <li>
+              <section class="sidebar-group collapsable depth-0">
+                <a
+                  href="/mp-colorui-doc/view/avatar"
+                  class="sidebar-heading clickable"
+                  ><span>视图组件</span> <span class="arrow right"></span
+                ></a>
+                <!---->
+              </section>
+            </li>
+            <li>
+              <section class="sidebar-group collapsable depth-0">
+                <a
+                  href="/mp-colorui-doc/action/modal"
+                  class="sidebar-heading clickable"
+                  ><span>操作反馈</span> <span class="arrow right"></span
+                ></a>
+                <!---->
+              </section>
+            </li>
+            <li>
+              <section class="sidebar-group collapsable depth-0">
+                <a
+                  href="/mp-colorui-doc/form/form"
+                  class="sidebar-heading clickable"
+                  ><span>表单组件</span> <span class="arrow right"></span
+                ></a>
+                <!---->
+              </section>
+            </li>
+            <li>
+              <section class="sidebar-group collapsable depth-0">
+                <a
+                  href="/mp-colorui-doc/layout/layout"
+                  class="sidebar-heading clickable"
+                  ><span>布局组件</span> <span class="arrow right"></span
+                ></a>
+                <!---->
+              </section>
+            </li>
+            <li>
+              <section class="sidebar-group collapsable depth-0">
+                <a
+                  href="/mp-colorui-doc/navigate/navBar"
+                  class="sidebar-heading clickable"
+                  ><span>导航组件</span> <span class="arrow right"></span
+                ></a>
+                <!---->
+              </section>
+            </li>
+            <li>
+              <section class="sidebar-group collapsable depth-0">
+                <a
+                  href="/mp-colorui-doc/util/rule"
+                  class="sidebar-heading clickable"
+                  ><span>内置工具</span> <span class="arrow right"></span
+                ></a>
+                <!---->
+              </section>
+            </li>
+          </ul>
+        </aside>
+        <main class="page">
+          <div class="theme-default-content content__default">
+            <p><code>MP ColorUI</code> 有以下默认色</p>
+            <h2 id="标准色">
+              <a href="#标准色" aria-hidden="true" class="header-anchor">#</a>
+              标准色
+            </h2>
+            <div
+              style="display:flex;flex-wrap:wrap;justify-content:flex-start;"
+              data-v-88b3a584
+            >
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#e54d42;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>red</div>
+                <div data-v-88b3a584>#e54d42</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#f37b1d;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>orange</div>
+                <div data-v-88b3a584>#f37b1d</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#fbbd08;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>yellow</div>
+                <div data-v-88b3a584>#fbbd08</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#8dc63f;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>olive</div>
+                <div data-v-88b3a584>#8dc63f</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#39b54a;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>green</div>
+                <div data-v-88b3a584>#39b54a</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#1cbbb4;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>cyan</div>
+                <div data-v-88b3a584>#1cbbb4</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#0081ff;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>blue</div>
+                <div data-v-88b3a584>#0081ff</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#6739b6;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>purple</div>
+                <div data-v-88b3a584>#6739b6</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#9c26b0;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>mauve</div>
+                <div data-v-88b3a584>#9c26b0</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#e03997;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>pink</div>
+                <div data-v-88b3a584>#e03997</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#a5673f;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>brown</div>
+                <div data-v-88b3a584>#a5673f</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#8799a3;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>grey</div>
+                <div data-v-88b3a584>#8799a3</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#333333;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>black</div>
+                <div data-v-88b3a584>#333333</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#aaaaaa;color:#ffffff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>gray</div>
+                <div data-v-88b3a584>#aaaaaa</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#ffffff;color:#000000;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-88b3a584
+              >
+                <div data-v-88b3a584>white</div>
+                <div data-v-88b3a584>#ffffff</div>
+              </div>
+            </div>
+            <h2 id="浅色">
+              <a href="#浅色" aria-hidden="true" class="header-anchor">#</a>
+              浅色
+            </h2>
+            <div
+              style="display:flex;flex-wrap:wrap;justify-content:flex-start;"
+              data-v-d64bb21c
+            >
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#fadbd9;color:#e54d42;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>redLight</div>
+                <div data-v-d64bb21c>#fadbd9</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#fde6d2;color:#f37b1d;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>orangeLight</div>
+                <div data-v-d64bb21c>#fde6d2</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#fef2ce;color:#fbbd08;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>yellowLight</div>
+                <div data-v-d64bb21c>#fef2ce</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#e8f4d9;color:#8dc63f;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>oliveLight</div>
+                <div data-v-d64bb21c>#e8f4d9</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#d7f0db;color:#39b54a;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>greenLight</div>
+                <div data-v-d64bb21c>#d7f0db</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#d2f1f0;color:#1cbbb4;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>cyanLight</div>
+                <div data-v-d64bb21c>#d2f1f0</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#cce6ff;color:#0081ff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>blueLight</div>
+                <div data-v-d64bb21c>#cce6ff</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#e1d7f0;color:#6739b6;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>purpleLight</div>
+                <div data-v-d64bb21c>#e1d7f0</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#ebd4ef;color:#9c26b0;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>mauveLight</div>
+                <div data-v-d64bb21c>#ebd4ef</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#f9d7ea;color:#e03997;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>pinkLight</div>
+                <div data-v-d64bb21c>#f9d7ea</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#ede1d9;color:#a5673f;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>brownLight</div>
+                <div data-v-d64bb21c>#ede1d9</div>
+              </div>
+              <div
+                style="border-radius:8px;width:120px;height:60px;background-color:#e7ebed;color:#8799a3;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-d64bb21c
+              >
+                <div data-v-d64bb21c>greyLight</div>
+                <div data-v-d64bb21c>#e7ebed</div>
+              </div>
+            </div>
+            <h2 id="渐变色">
+              <a href="#渐变色" aria-hidden="true" class="header-anchor">#</a>
+              渐变色
+            </h2>
+            <div
+              style="display:flex;flex-wrap:wrap;justify-content:flex-start;"
+              data-v-a66fc92e
+            >
+              <div
+                style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #f43f3b, #ec008c);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-a66fc92e
+              >
+                <div data-v-a66fc92e>gradualRed</div>
+                <div data-v-a66fc92e>#f43f3b ~ #ec008c</div>
+              </div>
+              <div
+                style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #ff9700, #ed1c24);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-a66fc92e
+              >
+                <div data-v-a66fc92e>gradualOrange</div>
+                <div data-v-a66fc92e>#ff9700 ~ #ed1c24</div>
+              </div>
+              <div
+                style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #39b54a, #8dc63f);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-a66fc92e
+              >
+                <div data-v-a66fc92e>gradualGreen</div>
+                <div data-v-a66fc92e>#39b54a ~ #8dc63f</div>
+              </div>
+              <div
+                style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #9000ff, #5e00ff);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-a66fc92e
+              >
+                <div data-v-a66fc92e>gradualPurple</div>
+                <div data-v-a66fc92e>#9000ff ~ #5e00ff</div>
+              </div>
+              <div
+                style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #ec008c, #6739b6);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-a66fc92e
+              >
+                <div data-v-a66fc92e>gradualPink</div>
+                <div data-v-a66fc92e>#ec008c ~ #6739b6</div>
+              </div>
+              <div
+                style="border-radius:8px;width:200px;height:60px;background:linear-gradient(45deg, #0081ff, #1cbbb4);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 auto;margin:10px;"
+                data-v-a66fc92e
+              >
+                <div data-v-a66fc92e>gradualBlue</div>
+                <div data-v-a66fc92e>#0081ff ~ #1cbbb4</div>
+              </div>
+            </div>
+          </div>
+          <footer class="page-edit">
+            <!---->
+            <div class="last-updated">
+              <span class="prefix">上次更新:</span>
+              <span class="time">10/9/2019, 2:20:26 PM</span>
+            </div>
+          </footer>
+          <div class="page-nav">
+            <p class="inner">
+              <span class="prev">
+                ←
+                <a href="/mp-colorui-doc/home/custom.html" class="prev"
+                  >自定义主题</a
+                ></span
+              >
+              <span class="next"
+                ><a href="/mp-colorui-doc/home/update.html">更新日志</a>→
+              </span>
+            </p>
+          </div>
+        </main>
+      </div>
+      <div class="global-ui"><!----></div>
+    </div>
+    <script src="/mp-colorui-doc/assets/js/app.79e7c0fc.js" defer></script
+    ><script src="/mp-colorui-doc/assets/js/2.5843e281.js" defer></script
+    ><script src="/mp-colorui-doc/assets/js/32.534334c9.js" defer></script
+    ><script src="/mp-colorui-doc/assets/js/6.57b61077.js" defer></script
+    ><script src="/mp-colorui-doc/assets/js/9.367c3b6a.js" defer></script
+    ><script src="/mp-colorui-doc/assets/js/7.8baf32a7.js" defer></script>
   </body>
 </html>
